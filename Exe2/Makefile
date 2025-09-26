@@ -1,24 +1,36 @@
-CC = gcc
-CFLAGS = -O3 -fopenmp
-LIBS = -lopenblas -lm
+### BLIS Library
+BLISROOT=${HOME}/blis_install
+BLIS = -L$(BLISROOT)/lib -lpthread -lblis -lm
 
-# Results folder
-OUTDIR = ../results
+### Compiler flags
+CFLAG = -m64 -fopenmp -DSAVE
+INCLUDE = -I$(BLISROOT)/include/blis
 
-# Double precision
-double:
-	$(CC) $(CFLAGS) -DUSE_DOUBLE \
-		-DFILENAME=\"$(OUTDIR)/openblas_d.csv\" \
-		gemm.c -o gemm_openblas_d $(LIBS)
+FLOAT_FLAGS = gcc -DUSE_FLOAT
+DOUBLE_FLAGS = gcc -DUSE_DOUBLE
 
-# Single precision
-float:
-	$(CC) $(CFLAGS) -DUSE_FLOAT \
-		-DFILENAME=\"$(OUTDIR)/openblas_f.csv\" \
-		gemm.c -o gemm_openblas_f $(LIBS)
+### Source and Output
+GEMM = gemm.c
+DATA_FOLDER= ../results
 
-# Clean binaries
+BLIS_f = $(DATA_FOLDER)/gemm_blis_f.exe
+BLIS_d = $(DATA_FOLDER)/gemm_blis_d.exe
+
+.PHONY: float double clean
+
+#--------------- FLOAT --------------------
+float: $(BLIS_f)
+
+$(BLIS_f): $(GEMM)
+	$(FLOAT_FLAGS) -DBLIS $^ $(INCLUDE) $(BLIS) -o $@  $(CFLAGS)
+
+#--------------- DOUBLE --------------------
+double: $(BLIS_d)
+
+$(BLIS_d): $(GEMM)
+	$(DOUBLE_FLAGS) -DBLIS $^ $(INCLUDE) $(BLIS) -o $@  $(CFLAGS)
+
+
+#--------------- CLEAN --------------------
 clean:
-	rm -f gemm_openblas_d gemm_openblas_f
-
-
+	rm -f $(BLIS_f) $(BLIS_d)
