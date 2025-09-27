@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --no-requeue
-#SBATCH --job-name="blis_fixed_cores"
+#SBATCH --job-name="EPYC_blis_fixed_cores"
 #SBATCH --partition=EPYC
 #SBATCH -N 1
 #SBATCH -n 64
 #SBATCH --exclusive
 #SBATCH --time=2:00:00
-#SBATCH --output="EPYC_summary.out"
+#SBATCH --output="EPYC_fixedcores_summary.out"
 
 echo "Loading modules..."
 module load openBLAS/0.3.26-omp
@@ -15,7 +15,7 @@ echo "Modules loaded"
 # Paths
 sbatch_path=$(pwd)
 blis_path=/u/dssc/msmaddi/blis_install
-result_base=./fixed_cores
+result_base=./fixed_cores/EPYC
 cd $sbatch_path
 
 # Set OpenMP settings

@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --no-requeue
-#SBATCH --job-name="blis_fixed_cores"
+#SBATCH --job-name="THIN_blis_fixed_cores"
 #SBATCH --partition=THIN
 #SBATCH -N 1
 #SBATCH -n 12
 #SBATCH --exclusive
 #SBATCH --time=2:00:00
-#SBATCH --output="THIN_summary.out"
+#SBATCH --output="THIN_fixedcores_summary.out"
 
 echo "Loading modules..."
 module load openBLAS/0.3.26-omp
@@ -15,7 +15,7 @@ echo "Modules loaded"
 # Paths
 sbatch_path=$(pwd)
 blis_path=/u/dssc/msmaddi/blis_install
-result_base=./fixed_cores
+result_base=./fixed_cores/THIN
 cd $sbatch_path
 
 # Set OpenMP settings
