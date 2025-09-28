@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --no-requeue
-#SBATCH --job-name="THIN_blis_fixed_cores"
+#SBATCH --job-name="THIN_blis_fixed_cores_spread"
 #SBATCH --partition=THIN
 #SBATCH -N 1
 #SBATCH -n 1
 #SBATCH --cpus-per-task=12
 #SBATCH --exclusive
 #SBATCH --time=2:00:00
-#SBATCH --output="THIN_fixedcores_summary.out"
+#SBATCH --output="THIN_fixedcores_spread_summary.out"
 
 echo "Loading modules..."
 # Only needed if you use MKL/OpenBLAS as well, not strictly for BLIS
@@ -22,7 +22,7 @@ cd $sbatch_path
 
 # OpenMP settings
 ncores=12
-alloc=close      # or spread
+alloc=spread      
 export OMP_PLACES=cores
 export OMP_PROC_BIND=$alloc
 export OMP_NUM_THREADS=$ncores

@@ -1,6 +1,6 @@
 Loading modules...
 Modules loaded
-Results will be stored in ./fixed_cores/THIN/close_cores
+Results will be stored in ./fixed_cores/THIN/spread_cores
 
  This example computes real matrix C=alpha*A*B+beta*C using 
  BLAS function dgemm, where A, B, and  C are matrices and 
@@ -13,44 +13,10 @@ Results will be stored in ./fixed_cores/THIN/close_cores
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.399717443 s
+ Elapsed time 0.405326265 s
 
 
-2000x2000x2000	0.399717 s	40.028276 GFLOPS
-File saved successfully
-
- This example computes real matrix C=alpha*A*B+beta*C using 
- BLAS function dgemm, where A, B, and  C are matrices and 
- alpha and beta are scalars
-
- Initializing data for matrix multiplication C=A*B for matrix 
- A(2000x2000) and matrix B(2000x2000)
-
- Using float 
-
- Computing matrix product using gemm function via CBLAS interface 
-
- Elapsed time 0.194448779 s
-
-
-2000x2000x2000	0.194449 s	82.283880 GFLOPS
-File saved successfully
-
- This example computes real matrix C=alpha*A*B+beta*C using 
- BLAS function dgemm, where A, B, and  C are matrices and 
- alpha and beta are scalars
-
- Initializing data for matrix multiplication C=A*B for matrix 
- A(2000x2000) and matrix B(2000x2000)
-
- Using double 
-
- Computing matrix product using gemm function via CBLAS interface 
-
- Elapsed time 0.399725060 s
-
-
-2000x2000x2000	0.399725 s	40.027513 GFLOPS
+2000x2000x2000	0.405326 s	39.474373 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -64,10 +30,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.193981342 s
+ Elapsed time 0.194670810 s
 
 
-2000x2000x2000	0.193981 s	82.482160 GFLOPS
+2000x2000x2000	0.194671 s	82.190031 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -81,10 +47,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.405087528 s
+ Elapsed time 0.402803898 s
 
 
-2000x2000x2000	0.405088 s	39.497637 GFLOPS
+2000x2000x2000	0.402804 s	39.721562 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -98,10 +64,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.194129926 s
+ Elapsed time 0.195045455 s
 
 
-2000x2000x2000	0.194130 s	82.419029 GFLOPS
+2000x2000x2000	0.195045 s	82.032160 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -115,10 +81,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.404196691 s
+ Elapsed time 0.400645051 s
 
 
-2000x2000x2000	0.404197 s	39.584688 GFLOPS
+2000x2000x2000	0.400645 s	39.935599 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -132,10 +98,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.193916200 s
+ Elapsed time 0.194475035 s
 
 
-2000x2000x2000	0.193916 s	82.509868 GFLOPS
+2000x2000x2000	0.194475 s	82.272771 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -149,10 +115,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.400773024 s
+ Elapsed time 0.401946459 s
 
 
-2000x2000x2000	0.400773 s	39.922847 GFLOPS
+2000x2000x2000	0.401946 s	39.806297 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -166,10 +132,44 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.193922775 s
+ Elapsed time 0.194085790 s
 
 
-2000x2000x2000	0.193923 s	82.507070 GFLOPS
+2000x2000x2000	0.194086 s	82.437771 GFLOPS
+File saved successfully
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.399732248 s
+
+
+2000x2000x2000	0.399732 s	40.026793 GFLOPS
+File saved successfully
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using float 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.193965479 s
+
+
+2000x2000x2000	0.193965 s	82.488905 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -183,10 +183,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.779778292 s
+ Elapsed time 0.778090834 s
 
 
-2500x2500x2500	0.779778 s	40.075494 GFLOPS
+2500x2500x2500	0.778091 s	40.162406 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -200,10 +200,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.375439981 s
+ Elapsed time 0.375552180 s
 
 
-2500x2500x2500	0.375440 s	83.235674 GFLOPS
+2500x2500x2500	0.375552 s	83.210807 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -217,10 +217,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.774308114 s
+ Elapsed time 0.774441898 s
 
 
-2500x2500x2500	0.774308 s	40.358611 GFLOPS
+2500x2500x2500	0.774442 s	40.351639 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -234,10 +234,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.375534447 s
+ Elapsed time 0.375730530 s
 
 
-2500x2500x2500	0.375534 s	83.214736 GFLOPS
+2500x2500x2500	0.375731 s	83.171309 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -251,10 +251,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.777065408 s
+ Elapsed time 0.775780976 s
 
 
-2500x2500x2500	0.777065 s	40.215405 GFLOPS
+2500x2500x2500	0.775781 s	40.281988 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -268,10 +268,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.376926636 s
+ Elapsed time 0.377890050 s
 
 
-2500x2500x2500	0.376927 s	82.907380 GFLOPS
+2500x2500x2500	0.377890 s	82.696012 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -285,10 +285,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.775259070 s
+ Elapsed time 0.777309202 s
 
 
-2500x2500x2500	0.775259 s	40.309106 GFLOPS
+2500x2500x2500	0.777309 s	40.202792 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -302,10 +302,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.375793332 s
+ Elapsed time 0.377182499 s
 
 
-2500x2500x2500	0.375793 s	83.157410 GFLOPS
+2500x2500x2500	0.377182 s	82.851140 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -319,10 +319,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.773987972 s
+ Elapsed time 0.775176769 s
 
 
-2500x2500x2500	0.773988 s	40.375304 GFLOPS
+2500x2500x2500	0.775177 s	40.313386 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -336,10 +336,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.375854936 s
+ Elapsed time 0.377205689 s
 
 
-2500x2500x2500	0.375855 s	83.143780 GFLOPS
+2500x2500x2500	0.377206 s	82.846046 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -353,10 +353,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.326482221 s
+ Elapsed time 1.338724755 s
 
 
-3000x3000x3000	1.326482 s	40.709177 GFLOPS
+3000x3000x3000	1.338725 s	40.336895 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -370,10 +370,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.648790918 s
+ Elapsed time 0.645774933 s
 
 
-3000x3000x3000	0.648791 s	83.231745 GFLOPS
+3000x3000x3000	0.645775 s	83.620465 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -387,10 +387,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.334976407 s
+ Elapsed time 1.329441747 s
 
 
-3000x3000x3000	1.334976 s	40.450153 GFLOPS
+3000x3000x3000	1.329442 s	40.618553 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -404,10 +404,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.646110457 s
+ Elapsed time 0.647332255 s
 
 
-3000x3000x3000	0.646110 s	83.577041 GFLOPS
+3000x3000x3000	0.647332 s	83.419294 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -421,10 +421,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.327165990 s
+ Elapsed time 1.332820211 s
 
 
-3000x3000x3000	1.327166 s	40.688204 GFLOPS
+3000x3000x3000	1.332820 s	40.515592 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -438,10 +438,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.643936500 s
+ Elapsed time 0.647103491 s
 
 
-3000x3000x3000	0.643937 s	83.859200 GFLOPS
+3000x3000x3000	0.647103 s	83.448785 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -455,10 +455,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.341887333 s
+ Elapsed time 1.335523929 s
 
 
-3000x3000x3000	1.341887 s	40.241829 GFLOPS
+3000x3000x3000	1.335524 s	40.433570 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -472,10 +472,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.643648150 s
+ Elapsed time 0.646428066 s
 
 
-3000x3000x3000	0.643648 s	83.896769 GFLOPS
+3000x3000x3000	0.646428 s	83.535977 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -489,10 +489,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.325683461 s
+ Elapsed time 1.327797294 s
 
 
-3000x3000x3000	1.325683 s	40.733706 GFLOPS
+3000x3000x3000	1.327797 s	40.668858 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -506,10 +506,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 0.644293550 s
+ Elapsed time 0.644745979 s
 
 
-3000x3000x3000	0.644294 s	83.812728 GFLOPS
+3000x3000x3000	0.644746 s	83.753915 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -523,10 +523,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.125090050 s
+ Elapsed time 2.112413738 s
 
 
-3500x3500x3500	2.125090 s	40.351231 GFLOPS
+3500x3500x3500	2.112414 s	40.593374 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -540,10 +540,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.24104472 s
+ Elapsed time 1.20549410 s
 
 
-3500x3500x3500	1.024104 s	83.731692 GFLOPS
+3500x3500x3500	1.020549 s	84.023369 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -557,10 +557,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.123118781 s
+ Elapsed time 2.111330709 s
 
 
-3500x3500x3500	2.123119 s	40.388696 GFLOPS
+3500x3500x3500	2.111331 s	40.614196 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -574,10 +574,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.22931923 s
+ Elapsed time 1.22464299 s
 
 
-3500x3500x3500	1.022932 s	83.827670 GFLOPS
+3500x3500x3500	1.022464 s	83.866009 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -591,10 +591,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.112326590 s
+ Elapsed time 2.127157556 s
 
 
-3500x3500x3500	2.112327 s	40.595048 GFLOPS
+3500x3500x3500	2.127158 s	40.312012 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -608,10 +608,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.18286145 s
+ Elapsed time 1.22291382 s
 
 
-3500x3500x3500	1.018286 s	84.210122 GFLOPS
+3500x3500x3500	1.022291 s	83.880195 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -625,10 +625,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.113780779 s
+ Elapsed time 2.117379876 s
 
 
-3500x3500x3500	2.113781 s	40.567121 GFLOPS
+3500x3500x3500	2.117380 s	40.498165 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -642,10 +642,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.22351874 s
+ Elapsed time 1.24775626 s
 
 
-3500x3500x3500	1.022352 s	83.875231 GFLOPS
+3500x3500x3500	1.024776 s	83.676854 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -659,10 +659,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.120917490 s
+ Elapsed time 2.113992696 s
 
 
-3500x3500x3500	2.120917 s	40.430616 GFLOPS
+3500x3500x3500	2.113993 s	40.563054 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -676,10 +676,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.19851568 s
+ Elapsed time 1.22884483 s
 
 
-3500x3500x3500	1.019852 s	84.080863 GFLOPS
+3500x3500x3500	1.022884 s	83.831558 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -693,10 +693,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.156667278 s
+ Elapsed time 3.169885888 s
 
 
-4000x4000x4000	3.156667 s	40.549095 GFLOPS
+4000x4000x4000	3.169886 s	40.380002 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -710,10 +710,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.522216623 s
+ Elapsed time 1.517862778 s
 
 
-4000x4000x4000	1.522217 s	84.087901 GFLOPS
+4000x4000x4000	1.517863 s	84.329099 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -727,10 +727,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.155719512 s
+ Elapsed time 3.172160699 s
 
 
-4000x4000x4000	3.155720 s	40.561273 GFLOPS
+4000x4000x4000	3.172161 s	40.351045 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -744,10 +744,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.520877162 s
+ Elapsed time 1.517325557 s
 
 
-4000x4000x4000	1.520877 s	84.161958 GFLOPS
+4000x4000x4000	1.517326 s	84.358956 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -761,10 +761,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.158704107 s
+ Elapsed time 3.150633093 s
 
 
-4000x4000x4000	3.158704 s	40.522947 GFLOPS
+4000x4000x4000	3.150633 s	40.626755 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -778,10 +778,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.518554237 s
+ Elapsed time 1.523297652 s
 
 
-4000x4000x4000	1.518554 s	84.290700 GFLOPS
+4000x4000x4000	1.523298 s	84.028226 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -795,10 +795,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.149104155 s
+ Elapsed time 3.169440734 s
 
 
-4000x4000x4000	3.149104 s	40.646480 GFLOPS
+4000x4000x4000	3.169441 s	40.385674 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -812,10 +812,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.517155168 s
+ Elapsed time 1.517540123 s
 
 
-4000x4000x4000	1.517155 s	84.368430 GFLOPS
+4000x4000x4000	1.517540 s	84.347028 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -829,10 +829,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.150204333 s
+ Elapsed time 3.150513701 s
 
 
-4000x4000x4000	3.150204 s	40.632285 GFLOPS
+4000x4000x4000	3.150514 s	40.628295 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -846,10 +846,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 1.524659509 s
+ Elapsed time 1.521761438 s
 
 
-4000x4000x4000	1.524660 s	83.953171 GFLOPS
+4000x4000x4000	1.521761 s	84.113053 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -863,10 +863,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 4.510366214 s
+ Elapsed time 4.519058253 s
 
 
-4500x4500x4500	4.510366 s	40.406918 GFLOPS
+4500x4500x4500	4.519058 s	40.329199 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -880,10 +880,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.169078957 s
+ Elapsed time 2.178722109 s
 
 
-4500x4500x4500	2.169079 s	84.021838 GFLOPS
+4500x4500x4500	2.178722 s	83.649952 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -897,10 +897,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 4.527505006 s
+ Elapsed time 4.508721043 s
 
 
-4500x4500x4500	4.527505 s	40.253959 GFLOPS
+4500x4500x4500	4.508721 s	40.421662 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -914,10 +914,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.174221827 s
+ Elapsed time 2.170471953 s
 
 
-4500x4500x4500	2.174222 s	83.823094 GFLOPS
+4500x4500x4500	2.170472 s	83.967913 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -931,10 +931,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 4.505596465 s
+ Elapsed time 4.539326710 s
 
 
-4500x4500x4500	4.505596 s	40.449694 GFLOPS
+4500x4500x4500	4.539327 s	40.149126 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -948,10 +948,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.178872844 s
+ Elapsed time 2.172777999 s
 
 
-4500x4500x4500	2.178873 s	83.644165 GFLOPS
+4500x4500x4500	2.172778 s	83.878795 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -965,10 +965,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 4.530648457 s
+ Elapsed time 4.513435340 s
 
 
-4500x4500x4500	4.530648 s	40.226030 GFLOPS
+4500x4500x4500	4.513435 s	40.379442 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -982,10 +982,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.169549624 s
+ Elapsed time 2.176125744 s
 
 
-4500x4500x4500	2.169550 s	84.003610 GFLOPS
+4500x4500x4500	2.176126 s	83.749756 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -999,10 +999,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 4.490558856 s
+ Elapsed time 4.507056330 s
 
 
-4500x4500x4500	4.490559 s	40.585149 GFLOPS
+4500x4500x4500	4.507056 s	40.436592 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1016,10 +1016,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.180067806 s
+ Elapsed time 2.173278715 s
 
 
-4500x4500x4500	2.180068 s	83.598317 GFLOPS
+4500x4500x4500	2.173279 s	83.859469 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1033,10 +1033,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.177594209 s
+ Elapsed time 6.188179038 s
 
 
-5000x5000x5000	6.177594 s	40.468828 GFLOPS
+5000x5000x5000	6.188179 s	40.399607 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1050,10 +1050,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.992815523 s
+ Elapsed time 2.979937171 s
 
 
-5000x5000x5000	2.992816 s	83.533381 GFLOPS
+5000x5000x5000	2.979937 s	83.894386 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1067,10 +1067,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.165101674 s
+ Elapsed time 6.194778377 s
 
 
-5000x5000x5000	6.165102 s	40.550832 GFLOPS
+5000x5000x5000	6.194778 s	40.356569 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1084,10 +1084,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.992305149 s
+ Elapsed time 2.980980002 s
 
 
-5000x5000x5000	2.992305 s	83.547629 GFLOPS
+5000x5000x5000	2.980980 s	83.865038 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1101,10 +1101,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.159545619 s
+ Elapsed time 6.170296633 s
 
 
-5000x5000x5000	6.159546 s	40.587409 GFLOPS
+5000x5000x5000	6.170297 s	40.516691 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1118,10 +1118,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.563314 s
+ Elapsed time 2.998310828 s
 
 
-5000x5000x5000	3.000563 s	83.317689 GFLOPS
+5000x5000x5000	2.998311 s	83.380281 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1135,10 +1135,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.185517379 s
+ Elapsed time 6.170680454 s
 
 
-5000x5000x5000	6.185517 s	40.416991 GFLOPS
+5000x5000x5000	6.170680 s	40.514170 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1152,10 +1152,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.991330372 s
+ Elapsed time 2.996262221 s
 
 
-5000x5000x5000	2.991330 s	83.574854 GFLOPS
+5000x5000x5000	2.996262 s	83.437290 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1169,10 +1169,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.198371408 s
+ Elapsed time 6.172526380 s
 
 
-5000x5000x5000	6.198371 s	40.333175 GFLOPS
+5000x5000x5000	6.172526 s	40.502055 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1186,10 +1186,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 2.976227130 s
+ Elapsed time 2.982126965 s
 
 
-5000x5000x5000	2.976227 s	83.998965 GFLOPS
+5000x5000x5000	2.982127 s	83.832782 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1203,10 +1203,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.215498803 s
+ Elapsed time 8.263482769 s
 
 
-5500x5500x5500	8.215499 s	40.502714 GFLOPS
+5500x5500x5500	8.263483 s	40.267525 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1220,10 +1220,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.970143892 s
+ Elapsed time 3.966881436 s
 
 
-5500x5500x5500	3.970144 s	83.813083 GFLOPS
+5500x5500x5500	3.966881 s	83.882013 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1237,10 +1237,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.203977758 s
+ Elapsed time 8.232951368 s
 
 
-5500x5500x5500	8.203978 s	40.559593 GFLOPS
+5500x5500x5500	8.232951 s	40.416855 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1254,10 +1254,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.983287638 s
+ Elapsed time 3.967663113 s
 
 
-5500x5500x5500	3.983288 s	83.536523 GFLOPS
+5500x5500x5500	3.967663 s	83.865487 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1271,10 +1271,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.278659438 s
+ Elapsed time 8.302710255 s
 
 
-5500x5500x5500	8.278659 s	40.193706 GFLOPS
+5500x5500x5500	8.302710 s	40.077275 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1288,10 +1288,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.955017048 s
+ Elapsed time 3.971091886 s
 
 
-5500x5500x5500	3.955017 s	84.133645 GFLOPS
+5500x5500x5500	3.971092 s	83.793075 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1305,10 +1305,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.247466633 s
+ Elapsed time 8.210794740 s
 
 
-5500x5500x5500	8.247467 s	40.345722 GFLOPS
+5500x5500x5500	8.210795 s	40.525919 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1322,10 +1322,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.964952854 s
+ Elapsed time 3.956599473 s
 
 
-5500x5500x5500	3.964953 s	83.922814 GFLOPS
+5500x5500x5500	3.956599 s	84.099996 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1339,10 +1339,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.235230727 s
+ Elapsed time 8.257576617 s
 
 
-5500x5500x5500	8.235231 s	40.405668 GFLOPS
+5500x5500x5500	8.257577 s	40.296326 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1356,10 +1356,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 3.957265679 s
+ Elapsed time 3.967045575 s
 
 
-5500x5500x5500	3.957266 s	84.085838 GFLOPS
+5500x5500x5500	3.967046 s	83.878542 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1373,10 +1373,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.681658818 s
+ Elapsed time 10.676100804 s
 
 
-6000x6000x6000	10.681659 s	40.443157 GFLOPS
+6000x6000x6000	10.676101 s	40.464211 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1390,10 +1390,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 5.146868554 s
+ Elapsed time 5.125977354 s
 
 
-6000x6000x6000	5.146869 s	83.934531 GFLOPS
+6000x6000x6000	5.125977 s	84.276611 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1407,10 +1407,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.690403121 s
+ Elapsed time 10.741335146 s
 
 
-6000x6000x6000	10.690403 s	40.410076 GFLOPS
+6000x6000x6000	10.741335 s	40.218464 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1424,10 +1424,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 5.145120708 s
+ Elapsed time 5.135786450 s
 
 
-6000x6000x6000	5.145121 s	83.963045 GFLOPS
+6000x6000x6000	5.135786 s	84.115647 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1441,10 +1441,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.691347943 s
+ Elapsed time 10.702559606 s
 
 
-6000x6000x6000	10.691348 s	40.406505 GFLOPS
+6000x6000x6000	10.702560 s	40.364176 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1458,10 +1458,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 5.146519799 s
+ Elapsed time 5.130590378 s
 
 
-6000x6000x6000	5.146520 s	83.940219 GFLOPS
+6000x6000x6000	5.130590 s	84.200836 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1475,10 +1475,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.668061595 s
+ Elapsed time 10.653267929 s
 
 
-6000x6000x6000	10.668062 s	40.494704 GFLOPS
+6000x6000x6000	10.653268 s	40.550937 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1492,10 +1492,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 5.128185263 s
+ Elapsed time 5.146125296 s
 
 
-6000x6000x6000	5.128185 s	84.240326 GFLOPS
+6000x6000x6000	5.146125 s	83.946654 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1509,10 +1509,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.668904425 s
+ Elapsed time 10.681402353 s
 
 
-6000x6000x6000	10.668904 s	40.491505 GFLOPS
+6000x6000x6000	10.681402 s	40.444128 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1526,10 +1526,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 5.132384668 s
+ Elapsed time 5.142846396 s
 
 
-6000x6000x6000	5.132385 s	84.171399 GFLOPS
+6000x6000x6000	5.142846 s	84.000176 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1543,10 +1543,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 13.528697380 s
+ Elapsed time 13.557379804 s
 
 
-6500x6500x6500	13.528697 s	40.598883 GFLOPS
+6500x6500x6500	13.557380 s	40.512991 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1560,10 +1560,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.525478724 s
+ Elapsed time 6.503879552 s
 
 
-6500x6500x6500	6.525479 s	84.170070 GFLOPS
+6500x6500x6500	6.503880 s	84.449596 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1577,10 +1577,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 13.524517977 s
+ Elapsed time 13.518660746 s
 
 
-6500x6500x6500	13.524518 s	40.611429 GFLOPS
+6500x6500x6500	13.518661 s	40.629025 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1594,10 +1594,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.526744372 s
+ Elapsed time 6.547091232 s
 
 
-6500x6500x6500	6.526744 s	84.153748 GFLOPS
+6500x6500x6500	6.547091 s	83.892217 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1611,10 +1611,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 13.521355777 s
+ Elapsed time 13.618328254 s
 
 
-6500x6500x6500	13.521356 s	40.620927 GFLOPS
+6500x6500x6500	13.618328 s	40.331676 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1628,10 +1628,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.522100445 s
+ Elapsed time 6.529829259 s
 
 
-6500x6500x6500	6.522100 s	84.213668 GFLOPS
+6500x6500x6500	6.529829 s	84.113991 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1645,10 +1645,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 13.649438519 s
+ Elapsed time 13.579960583 s
 
 
-6500x6500x6500	13.649439 s	40.239750 GFLOPS
+6500x6500x6500	13.579961 s	40.445625 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1662,10 +1662,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.499540931 s
+ Elapsed time 6.509946865 s
 
 
-6500x6500x6500	6.499541 s	84.505968 GFLOPS
+6500x6500x6500	6.509947 s	84.370888 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1679,10 +1679,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 13.525283611 s
+ Elapsed time 13.534813426 s
 
 
-6500x6500x6500	13.525284 s	40.609130 GFLOPS
+6500x6500x6500	13.534813 s	40.580537 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1696,10 +1696,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 6.512478676 s
+ Elapsed time 6.510928873 s
 
 
-6500x6500x6500	6.512479 s	84.338088 GFLOPS
+6500x6500x6500	6.510929 s	84.358163 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1713,10 +1713,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 16.949098273 s
+ Elapsed time 16.944105001 s
 
 
-7000x7000x7000	16.949098 s	40.474130 GFLOPS
+7000x7000x7000	16.944105 s	40.486057 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1730,10 +1730,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.138829061 s
+ Elapsed time 8.186856835 s
 
 
-7000x7000x7000	8.138829 s	84.287309 GFLOPS
+7000x7000x7000	8.186857 s	83.792842 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1747,10 +1747,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 16.996812233 s
+ Elapsed time 16.936448336 s
 
 
-7000x7000x7000	16.996812 s	40.360509 GFLOPS
+7000x7000x7000	16.936448 s	40.504360 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1764,10 +1764,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.158522434 s
+ Elapsed time 8.142633984 s
 
 
-7000x7000x7000	8.158522 s	84.083853 GFLOPS
+7000x7000x7000	8.142634 s	84.247923 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1781,10 +1781,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 16.972594823 s
+ Elapsed time 17.36171614 s
 
 
-7000x7000x7000	16.972595 s	40.418098 GFLOPS
+7000x7000x7000	17.036172 s	40.267263 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1798,10 +1798,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.151310820 s
+ Elapsed time 8.165692713 s
 
 
-7000x7000x7000	8.151311 s	84.158243 GFLOPS
+7000x7000x7000	8.165693 s	84.010019 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1815,10 +1815,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 16.979631116 s
+ Elapsed time 17.10051056 s
 
 
-7000x7000x7000	16.979631 s	40.401349 GFLOPS
+7000x7000x7000	17.010051 s	40.329097 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1832,10 +1832,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.162537212 s
+ Elapsed time 8.162286562 s
 
 
-7000x7000x7000	8.162537 s	84.042496 GFLOPS
+7000x7000x7000	8.162287 s	84.045077 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1849,10 +1849,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 16.958862989 s
+ Elapsed time 17.53275447 s
 
 
-7000x7000x7000	16.958863 s	40.450825 GFLOPS
+7000x7000x7000	17.053275 s	40.226876 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1866,10 +1866,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 8.155892158 s
+ Elapsed time 8.149628255 s
 
 
-7000x7000x7000	8.155892 s	84.110970 GFLOPS
+7000x7000x7000	8.149628 s	84.175619 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1883,10 +1883,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 21.1912366 s
+ Elapsed time 20.843882219 s
 
 
-7500x7500x7500	21.001912 s	40.174913 GFLOPS
+7500x7500x7500	20.843882 s	40.479503 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1900,10 +1900,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.9010110 s
+ Elapsed time 10.25617445 s
 
 
-7500x7500x7500	10.009010 s	84.299046 GFLOPS
+7500x7500x7500	10.025617 s	84.159405 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1917,10 +1917,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.804111031 s
+ Elapsed time 20.917727955 s
 
 
-7500x7500x7500	20.804111 s	40.556888 GFLOPS
+7500x7500x7500	20.917728 s	40.336599 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1934,10 +1934,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 9.984462810 s
+ Elapsed time 10.2294239 s
 
 
-7500x7500x7500	9.984463 s	84.506299 GFLOPS
+7500x7500x7500	10.002294 s	84.355647 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1951,10 +1951,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.826692423 s
+ Elapsed time 20.852423429 s
 
 
-7500x7500x7500	20.826692 s	40.512914 GFLOPS
+7500x7500x7500	20.852423 s	40.462923 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1968,10 +1968,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 9.981380504 s
+ Elapsed time 9.991449313 s
 
 
-7500x7500x7500	9.981381 s	84.532395 GFLOPS
+7500x7500x7500	9.991449 s	84.447208 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -1985,10 +1985,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.872853019 s
+ Elapsed time 20.907853607 s
 
 
-7500x7500x7500	20.872853 s	40.423319 GFLOPS
+7500x7500x7500	20.907854 s	40.355649 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2002,10 +2002,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.5493493 s
+ Elapsed time 9.988248966 s
 
 
-7500x7500x7500	10.005493 s	84.328674 GFLOPS
+7500x7500x7500	9.988249 s	84.474266 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2019,10 +2019,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.869711082 s
+ Elapsed time 20.927809831 s
 
 
-7500x7500x7500	20.869711 s	40.429405 GFLOPS
+7500x7500x7500	20.927810 s	40.317167 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2036,10 +2036,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 10.7116203 s
+ Elapsed time 9.974164535 s
 
 
-7500x7500x7500	10.007116 s	84.315000 GFLOPS
+7500x7500x7500	9.974165 s	84.593551 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2053,10 +2053,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 25.205944614 s
+ Elapsed time 25.255698164 s
 
 
-8000x8000x8000	25.205945 s	40.625337 GFLOPS
+8000x8000x8000	25.255698 s	40.545306 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2070,10 +2070,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 12.156090256 s
+ Elapsed time 12.173283440 s
 
 
-8000x8000x8000	12.156090 s	84.237611 GFLOPS
+8000x8000x8000	12.173283 s	84.118636 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2087,10 +2087,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 25.458659502 s
+ Elapsed time 25.265295688 s
 
 
-8000x8000x8000	25.458660 s	40.222071 GFLOPS
+8000x8000x8000	25.265296 s	40.529904 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2104,10 +2104,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 12.140907052 s
+ Elapsed time 12.179389895 s
 
 
-8000x8000x8000	12.140907 s	84.342957 GFLOPS
+8000x8000x8000	12.179390 s	84.076461 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2121,10 +2121,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 25.242421458 s
+ Elapsed time 25.404690754 s
 
 
-8000x8000x8000	25.242421 s	40.566631 GFLOPS
+8000x8000x8000	25.404691 s	40.307517 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2138,10 +2138,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 12.188142340 s
+ Elapsed time 12.140961564 s
 
 
-8000x8000x8000	12.188142 s	84.016085 GFLOPS
+8000x8000x8000	12.140962 s	84.342578 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2155,10 +2155,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 25.279156759 s
+ Elapsed time 25.310176796 s
 
 
-8000x8000x8000	25.279157 s	40.507680 GFLOPS
+8000x8000x8000	25.310177 s	40.458034 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2172,10 +2172,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 12.180008135 s
+ Elapsed time 12.166629646 s
 
 
-8000x8000x8000	12.180008 s	84.072193 GFLOPS
+8000x8000x8000	12.166630 s	84.164640 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2189,10 +2189,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 25.314233068 s
+ Elapsed time 25.298169663 s
 
 
-8000x8000x8000	25.314233 s	40.451551 GFLOPS
+8000x8000x8000	25.298170 s	40.477237 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2206,10 +2206,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 12.236310259 s
+ Elapsed time 12.173173044 s
 
 
-8000x8000x8000	12.236310 s	83.685358 GFLOPS
+8000x8000x8000	12.173173 s	84.119399 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2223,10 +2223,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 30.359048531 s
+ Elapsed time 30.462304986 s
 
 
-8500x8500x8500	30.359049 s	40.457460 GFLOPS
+8500x8500x8500	30.462305 s	40.320324 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2240,10 +2240,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 14.615870844 s
+ Elapsed time 14.594267313 s
 
 
-8500x8500x8500	14.615871 s	84.035362 GFLOPS
+8500x8500x8500	14.594267 s	84.159758 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2257,10 +2257,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 30.333142366 s
+ Elapsed time 30.468057431 s
 
 
-8500x8500x8500	30.333142 s	40.492013 GFLOPS
+8500x8500x8500	30.468057 s	40.312711 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2274,10 +2274,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 14.576381225 s
+ Elapsed time 14.586094859 s
 
 
-8500x8500x8500	14.576381 s	84.263027 GFLOPS
+8500x8500x8500	14.586095 s	84.206912 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2291,10 +2291,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 30.313823079 s
+ Elapsed time 30.478912760 s
 
 
-8500x8500x8500	30.313823 s	40.517819 GFLOPS
+8500x8500x8500	30.478913 s	40.298353 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2308,10 +2308,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 14.617172337 s
+ Elapsed time 14.670061639 s
 
 
-8500x8500x8500	14.617172 s	84.027880 GFLOPS
+8500x8500x8500	14.670062 s	83.724938 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2325,10 +2325,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 30.316793896 s
+ Elapsed time 30.544713369 s
 
 
-8500x8500x8500	30.316794 s	40.513849 GFLOPS
+8500x8500x8500	30.544713 s	40.211541 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2342,10 +2342,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 14.604855789 s
+ Elapsed time 14.591436367 s
 
 
-8500x8500x8500	14.604856 s	84.098742 GFLOPS
+8500x8500x8500	14.591436 s	84.176086 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2359,10 +2359,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 30.352615738 s
+ Elapsed time 30.448040169 s
 
 
-8500x8500x8500	30.352616 s	40.466035 GFLOPS
+8500x8500x8500	30.448040 s	40.339214 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2376,10 +2376,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 14.597331336 s
+ Elapsed time 14.592084961 s
 
 
-8500x8500x8500	14.597331 s	84.142092 GFLOPS
+8500x8500x8500	14.592085 s	84.172344 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2393,10 +2393,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 36.233766966 s
+ Elapsed time 36.352373373 s
 
 
-9000x9000x9000	36.233767 s	40.238709 GFLOPS
+9000x9000x9000	36.352373 s	40.107423 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2410,10 +2410,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 17.426189170 s
+ Elapsed time 17.323375660 s
 
 
-9000x9000x9000	17.426189 s	83.667174 GFLOPS
+9000x9000x9000	17.323376 s	84.163735 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2427,10 +2427,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 36.117017899 s
+ Elapsed time 36.9574203 s
 
 
-9000x9000x9000	36.117018 s	40.368781 GFLOPS
+9000x9000x9000	36.009574 s	40.489232 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2444,10 +2444,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 17.361703539 s
+ Elapsed time 17.403468881 s
 
 
-9000x9000x9000	17.361704 s	83.977934 GFLOPS
+9000x9000x9000	17.403469 s	83.776402 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2461,10 +2461,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 36.161932603 s
+ Elapsed time 36.167741316 s
 
 
-9000x9000x9000	36.161933 s	40.318642 GFLOPS
+9000x9000x9000	36.167741 s	40.312166 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2478,10 +2478,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 17.340005288 s
+ Elapsed time 17.364840773 s
 
 
-9000x9000x9000	17.340005 s	84.083019 GFLOPS
+9000x9000x9000	17.364841 s	83.962762 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2495,10 +2495,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 36.106527642 s
+ Elapsed time 36.74067331 s
 
 
-9000x9000x9000	36.106528 s	40.380510 GFLOPS
+9000x9000x9000	36.074067 s	40.416845 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2512,10 +2512,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 17.338413531 s
+ Elapsed time 17.350203895 s
 
 
-9000x9000x9000	17.338414 s	84.090739 GFLOPS
+9000x9000x9000	17.350204 s	84.033595 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2529,10 +2529,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 36.205070696 s
+ Elapsed time 36.159865414 s
 
 
-9000x9000x9000	36.205071 s	40.270602 GFLOPS
+9000x9000x9000	36.159865 s	40.320947 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2546,10 +2546,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 17.333314324 s
+ Elapsed time 17.300024001 s
 
 
-9000x9000x9000	17.333314 s	84.115477 GFLOPS
+9000x9000x9000	17.300024 s	84.277340 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2563,10 +2563,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 42.418345018 s
+ Elapsed time 42.510782512 s
 
 
-9500x9500x9500	42.418345 s	40.424727 GFLOPS
+9500x9500x9500	42.510783 s	40.336825 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2580,10 +2580,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.399319734 s
+ Elapsed time 20.429489689 s
 
 
-9500x9500x9500	20.399320 s	84.059176 GFLOPS
+9500x9500x9500	20.429490 s	83.935038 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2597,10 +2597,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 42.398016317 s
+ Elapsed time 42.471518291 s
 
 
-9500x9500x9500	42.398016 s	40.444109 GFLOPS
+9500x9500x9500	42.471518 s	40.374116 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2614,10 +2614,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.353387773 s
+ Elapsed time 20.395179613 s
 
 
-9500x9500x9500	20.353388 s	84.248874 GFLOPS
+9500x9500x9500	20.395180 s	84.076239 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2631,10 +2631,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 42.387568895 s
+ Elapsed time 42.510154313 s
 
 
-9500x9500x9500	42.387569 s	40.454078 GFLOPS
+9500x9500x9500	42.510154 s	40.337421 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2648,10 +2648,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.386390714 s
+ Elapsed time 20.387717045 s
 
 
-9500x9500x9500	20.386391 s	84.112486 GFLOPS
+9500x9500x9500	20.387717 s	84.107014 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2665,10 +2665,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 42.284327613 s
+ Elapsed time 42.577854356 s
 
 
-9500x9500x9500	42.284328 s	40.552850 GFLOPS
+9500x9500x9500	42.577854 s	40.273284 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2682,10 +2682,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.364703476 s
+ Elapsed time 20.405163421 s
 
 
-9500x9500x9500	20.364703 s	84.202061 GFLOPS
+9500x9500x9500	20.405163 s	84.035103 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2699,10 +2699,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 42.473833875 s
+ Elapsed time 42.231871559 s
 
 
-9500x9500x9500	42.473834 s	40.371915 GFLOPS
+9500x9500x9500	42.231872 s	40.603221 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2716,10 +2716,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 20.368796952 s
+ Elapsed time 20.393366318 s
 
 
-9500x9500x9500	20.368797 s	84.185139 GFLOPS
+9500x9500x9500	20.393366 s	84.083715 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2733,10 +2733,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 49.605645772 s
+ Elapsed time 49.462869062 s
 
 
-10000x10000x10000	49.605646 s	40.317991 GFLOPS
+10000x10000x10000	49.462869 s	40.434371 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2750,10 +2750,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 23.821820565 s
+ Elapsed time 23.839523688 s
 
 
-10000x10000x10000	23.821821 s	83.956639 GFLOPS
+10000x10000x10000	23.839524 s	83.894294 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2767,10 +2767,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 49.474827534 s
+ Elapsed time 49.660478283 s
 
 
-10000x10000x10000	49.474828 s	40.424598 GFLOPS
+10000x10000x10000	49.660478 s	40.273474 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2784,10 +2784,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 23.929627420 s
+ Elapsed time 23.814490214 s
 
 
-10000x10000x10000	23.929627 s	83.578401 GFLOPS
+10000x10000x10000	23.814490 s	83.982482 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2801,10 +2801,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 49.429562527 s
+ Elapsed time 49.477815881 s
 
 
-10000x10000x10000	49.429563 s	40.461616 GFLOPS
+10000x10000x10000	49.477816 s	40.422156 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2818,10 +2818,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 23.802018663 s
+ Elapsed time 23.828204823 s
 
 
-10000x10000x10000	23.802019 s	84.026487 GFLOPS
+10000x10000x10000	23.828205 s	83.934145 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2835,10 +2835,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 49.587543668 s
+ Elapsed time 49.392336395 s
 
 
-10000x10000x10000	49.587544 s	40.332710 GFLOPS
+10000x10000x10000	49.392336 s	40.492112 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2852,10 +2852,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 23.793076210 s
+ Elapsed time 23.794014536 s
 
 
-10000x10000x10000	23.793076 s	84.058067 GFLOPS
+10000x10000x10000	23.794015 s	84.054752 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2869,10 +2869,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 49.473077214 s
+ Elapsed time 49.606579910 s
 
 
-10000x10000x10000	49.473077 s	40.426028 GFLOPS
+10000x10000x10000	49.606580 s	40.317232 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2886,10 +2886,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 23.831153602 s
+ Elapsed time 23.820386887 s
 
 
-10000x10000x10000	23.831154 s	83.923759 GFLOPS
+10000x10000x10000	23.820387 s	83.961693 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2903,10 +2903,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 57.215439987 s
+ Elapsed time 57.296099520 s
 
 
-10500x10500x10500	57.215440 s	40.465476 GFLOPS
+10500x10500x10500	57.296100 s	40.408510 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2920,10 +2920,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 27.485562616 s
+ Elapsed time 27.518819170 s
 
 
-10500x10500x10500	27.485563 s	84.235132 GFLOPS
+10500x10500x10500	27.518819 s	84.133334 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2937,10 +2937,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 57.285887940 s
+ Elapsed time 57.393010518 s
 
 
-10500x10500x10500	57.285888 s	40.415713 GFLOPS
+10500x10500x10500	57.393011 s	40.340278 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2954,10 +2954,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 27.497849465 s
+ Elapsed time 27.500404424 s
 
 
-10500x10500x10500	27.497849 s	84.197493 GFLOPS
+10500x10500x10500	27.500404 s	84.189671 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2971,10 +2971,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 57.209895019 s
+ Elapsed time 57.430818994 s
 
 
-10500x10500x10500	57.209895 s	40.469398 GFLOPS
+10500x10500x10500	57.430819 s	40.313721 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -2988,10 +2988,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 27.476580305 s
+ Elapsed time 27.481936606 s
 
 
-10500x10500x10500	27.476580 s	84.262669 GFLOPS
+10500x10500x10500	27.481937 s	84.246246 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3005,10 +3005,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 57.320352168 s
+ Elapsed time 57.282830790 s
 
 
-10500x10500x10500	57.320352 s	40.391413 GFLOPS
+10500x10500x10500	57.282831 s	40.417870 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3022,10 +3022,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 27.484014138 s
+ Elapsed time 27.485217992 s
 
 
-10500x10500x10500	27.484014 s	84.239878 GFLOPS
+10500x10500x10500	27.485218 s	84.236188 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3039,10 +3039,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 57.500850826 s
+ Elapsed time 57.426449256 s
 
 
-10500x10500x10500	57.500851 s	40.264622 GFLOPS
+10500x10500x10500	57.426449 s	40.316788 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3056,10 +3056,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 27.487652805 s
+ Elapsed time 27.514270490 s
 
 
-10500x10500x10500	27.487653 s	84.228727 GFLOPS
+10500x10500x10500	27.514270 s	84.147243 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3073,10 +3073,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 65.684218048 s
+ Elapsed time 65.873794570 s
 
 
-11000x11000x11000	65.684218 s	40.527239 GFLOPS
+11000x11000x11000	65.873795 s	40.410607 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3090,10 +3090,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 31.572822348 s
+ Elapsed time 31.583390648 s
 
 
-11000x11000x11000	31.572822 s	84.313020 GFLOPS
+11000x11000x11000	31.583391 s	84.284807 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3107,10 +3107,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 65.781827887 s
+ Elapsed time 65.694311140 s
 
 
-11000x11000x11000	65.781828 s	40.467103 GFLOPS
+11000x11000x11000	65.694311 s	40.521012 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3124,10 +3124,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 31.610212764 s
+ Elapsed time 31.564370091 s
 
 
-11000x11000x11000	31.610213 s	84.213290 GFLOPS
+11000x11000x11000	31.564370 s	84.335597 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3141,10 +3141,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 65.811928050 s
+ Elapsed time 65.748312273 s
 
 
-11000x11000x11000	65.811928 s	40.448595 GFLOPS
+11000x11000x11000	65.748312 s	40.487731 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3158,10 +3158,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 31.560347808 s
+ Elapsed time 31.733382395 s
 
 
-11000x11000x11000	31.560348 s	84.346345 GFLOPS
+11000x11000x11000	31.733382 s	83.886425 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3175,10 +3175,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 65.870706113 s
+ Elapsed time 65.716889163 s
 
 
-11000x11000x11000	65.870706 s	40.412501 GFLOPS
+11000x11000x11000	65.716889 s	40.507091 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3192,10 +3192,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 31.737689803 s
+ Elapsed time 31.506976335 s
 
 
-11000x11000x11000	31.737690 s	83.875040 GFLOPS
+11000x11000x11000	31.506976 s	84.489225 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3209,10 +3209,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 66.198774378 s
+ Elapsed time 65.843232905 s
 
 
-11000x11000x11000	66.198774 s	40.212225 GFLOPS
+11000x11000x11000	65.843233 s	40.429364 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3226,10 +3226,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 31.610481547 s
+ Elapsed time 31.560258153 s
 
 
-11000x11000x11000	31.610482 s	84.212573 GFLOPS
+11000x11000x11000	31.560258 s	84.346585 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3243,10 +3243,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 74.837821370 s
+ Elapsed time 75.312809771 s
 
 
-11500x11500x11500	74.837821 s	40.644556 GFLOPS
+11500x11500x11500	75.312810 s	40.388216 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3260,10 +3260,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 35.953484212 s
+ Elapsed time 35.866788557 s
 
 
-11500x11500x11500	35.953484 s	84.602371 GFLOPS
+11500x11500x11500	35.866789 s	84.806868 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3277,10 +3277,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 75.115170932 s
+ Elapsed time 74.883020704 s
 
 
-11500x11500x11500	75.115171 s	40.494483 GFLOPS
+11500x11500x11500	74.883021 s	40.620023 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3294,10 +3294,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 35.931945285 s
+ Elapsed time 35.950728273 s
 
 
-11500x11500x11500	35.931945 s	84.653084 GFLOPS
+11500x11500x11500	35.950728 s	84.608856 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3311,10 +3311,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 74.820807771 s
+ Elapsed time 75.8948436 s
 
 
-11500x11500x11500	74.820808 s	40.653798 GFLOPS
+11500x11500x11500	75.008948 s	40.551828 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3328,10 +3328,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 35.961469864 s
+ Elapsed time 35.996608233 s
 
 
-11500x11500x11500	35.961470 s	84.583584 GFLOPS
+11500x11500x11500	35.996608 s	84.501017 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3345,10 +3345,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 74.819508761 s
+ Elapsed time 75.55453836 s
 
 
-11500x11500x11500	74.819509 s	40.654504 GFLOPS
+11500x11500x11500	75.055454 s	40.526702 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3362,10 +3362,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 35.914265880 s
+ Elapsed time 36.135226245 s
 
 
-11500x11500x11500	35.914266 s	84.694756 GFLOPS
+11500x11500x11500	36.135226 s	84.176863 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3379,10 +3379,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 74.984307437 s
+ Elapsed time 75.125856945 s
 
 
-11500x11500x11500	74.984307 s	40.565154 GFLOPS
+11500x11500x11500	75.125857 s	40.488723 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3396,10 +3396,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 35.908282093 s
+ Elapsed time 35.916550831 s
 
 
-11500x11500x11500	35.908282 s	84.708870 GFLOPS
+11500x11500x11500	35.916551 s	84.689368 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3413,10 +3413,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 85.163925347 s
+ Elapsed time 85.278558021 s
 
 
-12000x12000x12000	85.163925 s	40.580563 GFLOPS
+12000x12000x12000	85.278558 s	40.526014 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3430,10 +3430,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 40.928386351 s
+ Elapsed time 40.951447911 s
 
 
-12000x12000x12000	40.928386 s	84.440172 GFLOPS
+12000x12000x12000	40.951448 s	84.392620 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3447,10 +3447,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 84.901103164 s
+ Elapsed time 85.743930765 s
 
 
-12000x12000x12000	84.901103 s	40.706185 GFLOPS
+12000x12000x12000	85.743931 s	40.306060 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3464,10 +3464,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 40.921967483 s
+ Elapsed time 40.933696498 s
 
 
-12000x12000x12000	40.921967 s	84.453417 GFLOPS
+12000x12000x12000	40.933696 s	84.429218 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3481,10 +3481,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 85.92535948 s
+ Elapsed time 84.959378377 s
 
 
-12000x12000x12000	85.092536 s	40.614608 GFLOPS
+12000x12000x12000	84.959378 s	40.678264 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3498,10 +3498,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 40.981623064 s
+ Elapsed time 40.909248196 s
 
 
-12000x12000x12000	40.981623 s	84.330481 GFLOPS
+12000x12000x12000	40.909248 s	84.479675 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3515,10 +3515,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 85.936182780 s
+ Elapsed time 85.210916483 s
 
 
-12000x12000x12000	85.936183 s	40.215889 GFLOPS
+12000x12000x12000	85.210916 s	40.558184 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3532,10 +3532,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 40.967028588 s
+ Elapsed time 40.901001035 s
 
 
-12000x12000x12000	40.967029 s	84.360524 GFLOPS
+12000x12000x12000	40.901001 s	84.496709 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3549,10 +3549,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 85.336848082 s
+ Elapsed time 85.227788721 s
 
 
-12000x12000x12000	85.336848 s	40.498332 GFLOPS
+12000x12000x12000	85.227789 s	40.550154 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3566,10 +3566,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 40.954761739 s
+ Elapsed time 40.972563969 s
 
 
-12000x12000x12000	40.954762 s	84.385792 GFLOPS
+12000x12000x12000	40.972564 s	84.349127 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3583,10 +3583,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 97.96018086 s
+ Elapsed time 96.489948562 s
 
 
-12500x12500x12500	97.096018 s	40.230795 GFLOPS
+12500x12500x12500	96.489949 s	40.483491 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3600,10 +3600,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 46.318976677 s
+ Elapsed time 46.334500405 s
 
 
-12500x12500x12500	46.318977 s	84.333685 GFLOPS
+12500x12500x12500	46.334500 s	84.305430 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3617,10 +3617,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 96.458847603 s
+ Elapsed time 96.910038940 s
 
 
-12500x12500x12500	96.458848 s	40.496544 GFLOPS
+12500x12500x12500	96.910039 s	40.308002 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3634,10 +3634,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 46.377227179 s
+ Elapsed time 46.294673566 s
 
 
-12500x12500x12500	46.377227 s	84.227761 GFLOPS
+12500x12500x12500	46.294674 s	84.377958 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3651,10 +3651,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 96.531892769 s
+ Elapsed time 97.499194401 s
 
 
-12500x12500x12500	96.531893 s	40.465901 GFLOPS
+12500x12500x12500	97.499194 s	40.064434 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3668,10 +3668,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 46.300111556 s
+ Elapsed time 46.313618735 s
 
 
-12500x12500x12500	46.300112 s	84.368047 GFLOPS
+12500x12500x12500	46.313619 s	84.343442 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3685,10 +3685,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 96.321683662 s
+ Elapsed time 96.676769330 s
 
 
-12500x12500x12500	96.321684 s	40.554212 GFLOPS
+12500x12500x12500	96.676769 s	40.405260 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3702,10 +3702,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 46.245426338 s
+ Elapsed time 46.251152661 s
 
 
-12500x12500x12500	46.245426 s	84.467812 GFLOPS
+12500x12500x12500	46.251153 s	84.457355 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3719,10 +3719,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 96.322194435 s
+ Elapsed time 96.315642623 s
 
 
-12500x12500x12500	96.322194 s	40.553997 GFLOPS
+12500x12500x12500	96.315643 s	40.556756 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3736,10 +3736,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 46.336614924 s
+ Elapsed time 46.345171353 s
 
 
-12500x12500x12500	46.336615 s	84.301583 GFLOPS
+12500x12500x12500	46.345171 s	84.286019 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3753,10 +3753,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 109.212880183 s
+ Elapsed time 108.818644718 s
 
 
-13000x13000x13000	109.212880 s	40.233350 GFLOPS
+13000x13000x13000	108.818645 s	40.379110 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3770,10 +3770,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 52.171886015 s
+ Elapsed time 52.179750870 s
 
 
-13000x13000x13000	52.171886 s	84.221605 GFLOPS
+13000x13000x13000	52.179751 s	84.208911 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3787,10 +3787,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 108.568588001 s
+ Elapsed time 109.28396819 s
 
 
-13000x13000x13000	108.568588 s	40.472112 GFLOPS
+13000x13000x13000	109.028397 s	40.301427 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3804,10 +3804,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 52.161345072 s
+ Elapsed time 52.160566954 s
 
 
-13000x13000x13000	52.161345 s	84.238625 GFLOPS
+13000x13000x13000	52.160567 s	84.239882 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3821,10 +3821,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 108.961539237 s
+ Elapsed time 108.479661775 s
 
 
-13000x13000x13000	108.961539 s	40.326156 GFLOPS
+13000x13000x13000	108.479662 s	40.505289 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3838,10 +3838,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 52.147631302 s
+ Elapsed time 52.159438473 s
 
 
-13000x13000x13000	52.147631 s	84.260778 GFLOPS
+13000x13000x13000	52.159438 s	84.241704 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3855,10 +3855,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 108.757737145 s
+ Elapsed time 108.558212007 s
 
 
-13000x13000x13000	108.757737 s	40.401723 GFLOPS
+13000x13000x13000	108.558212 s	40.475980 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3872,10 +3872,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 52.359682703 s
+ Elapsed time 52.139688712 s
 
 
-13000x13000x13000	52.359683 s	83.919531 GFLOPS
+13000x13000x13000	52.139689 s	84.273614 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3889,10 +3889,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 108.526294406 s
+ Elapsed time 108.548068638 s
 
 
-13000x13000x13000	108.526294 s	40.487884 GFLOPS
+13000x13000x13000	108.548069 s	40.479762 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3906,10 +3906,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 52.229492562 s
+ Elapsed time 52.212764767 s
 
 
-13000x13000x13000	52.229493 s	84.128713 GFLOPS
+13000x13000x13000	52.212765 s	84.155666 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3923,10 +3923,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 121.587197753 s
+ Elapsed time 121.650658344 s
 
 
-13500x13500x13500	121.587198 s	40.470955 GFLOPS
+13500x13500x13500	121.650658 s	40.449843 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3940,10 +3940,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 58.322527124 s
+ Elapsed time 58.393202797 s
 
 
-13500x13500x13500	58.322527 s	84.371344 GFLOPS
+13500x13500x13500	58.393203 s	84.269226 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3957,10 +3957,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 121.723781844 s
+ Elapsed time 121.164483974 s
 
 
-13500x13500x13500	121.723782 s	40.425543 GFLOPS
+13500x13500x13500	121.164484 s	40.612148 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3974,10 +3974,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 58.200199969 s
+ Elapsed time 58.264112796 s
 
 
-13500x13500x13500	58.200200 s	84.548679 GFLOPS
+13500x13500x13500	58.264113 s	84.455933 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -3991,10 +3991,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 121.575078993 s
+ Elapsed time 121.746956344 s
 
 
-13500x13500x13500	121.575079 s	40.474989 GFLOPS
+13500x13500x13500	121.746956 s	40.417848 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -4008,10 +4008,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 58.349367759 s
+ Elapsed time 58.311336387 s
 
 
-13500x13500x13500	58.349368 s	84.332533 GFLOPS
+13500x13500x13500	58.311336 s	84.387536 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -4025,10 +4025,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 121.586052588 s
+ Elapsed time 121.972745157 s
 
 
-13500x13500x13500	121.586053 s	40.471336 GFLOPS
+13500x13500x13500	121.972745 s	40.343029 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -4042,10 +4042,10 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 58.576562566 s
+ Elapsed time 58.248627427 s
 
 
-13500x13500x13500	58.576563 s	84.005442 GFLOPS
+13500x13500x13500	58.248627 s	84.478385 GFLOPS
 File saved successfully
 
  This example computes real matrix C=alpha*A*B+beta*C using 
@@ -4059,11 +4059,11 @@ File saved successfully
 
  Computing matrix product using gemm function via CBLAS interface 
 
- Elapsed time 121.717880366 s
+ Elapsed time 121.975530507 s
 
 
-13500x13500x13500	121.717880 s	40.427503 GFLOPS
+13500x13500x13500	121.975531 s	40.342108 GFLOPS
 File saved successfully
 srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
-slurmstepd: error: *** JOB 488142 ON thin002 CANCELLED AT 2025-09-28T11:06:42 DUE TO TIME LIMIT ***
-slurmstepd: error: *** STEP 488142.239 ON thin002 CANCELLED AT 2025-09-28T11:06:42 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 488143 ON thin003 CANCELLED AT 2025-09-28T11:14:42 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 488143.239 ON thin003 CANCELLED AT 2025-09-28T11:14:42 DUE TO TIME LIMIT ***
