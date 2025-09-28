@@ -1,0 +1,3330 @@
+2000, 2000, 2000, 0.026196, 610.789971
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.26195584 s
+
+
+2000x2000x2000	0.026196 s	610.789971 GFLOPS
+Results saved to openblas_d.csv
+2000, 2000, 2000, 0.026520, 603.316294
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.26520086 s
+
+
+2000x2000x2000	0.026520 s	603.316294 GFLOPS
+Results saved to openblas_d.csv
+2000, 2000, 2000, 0.026480, 604.220800
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.26480386 s
+
+
+2000x2000x2000	0.026480 s	604.220800 GFLOPS
+Results saved to openblas_d.csv
+2000, 2000, 2000, 0.026358, 607.030498
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.26357819 s
+
+
+2000x2000x2000	0.026358 s	607.030498 GFLOPS
+Results saved to openblas_d.csv
+2000, 2000, 2000, 0.026773, 597.626511
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2000x2000) and matrix B(2000x2000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.26772574 s
+
+
+2000x2000x2000	0.026773 s	597.626511 GFLOPS
+Results saved to openblas_d.csv
+2500, 2500, 2500, 0.046445, 672.835423
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2500x2500) and matrix B(2500x2500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.46445236 s
+
+
+2500x2500x2500	0.046445 s	672.835423 GFLOPS
+Results saved to openblas_d.csv
+2500, 2500, 2500, 0.047156, 662.693798
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2500x2500) and matrix B(2500x2500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.47156017 s
+
+
+2500x2500x2500	0.047156 s	662.693798 GFLOPS
+Results saved to openblas_d.csv
+2500, 2500, 2500, 0.047646, 655.885366
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2500x2500) and matrix B(2500x2500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.47645521 s
+
+
+2500x2500x2500	0.047646 s	655.885366 GFLOPS
+Results saved to openblas_d.csv
+2500, 2500, 2500, 0.047445, 658.654283
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2500x2500) and matrix B(2500x2500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.47445224 s
+
+
+2500x2500x2500	0.047445 s	658.654283 GFLOPS
+Results saved to openblas_d.csv
+2500, 2500, 2500, 0.047593, 656.603895
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(2500x2500) and matrix B(2500x2500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.47593382 s
+
+
+2500x2500x2500	0.047593 s	656.603895 GFLOPS
+Results saved to openblas_d.csv
+3000, 3000, 3000, 0.080543, 670.448842
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3000x3000) and matrix B(3000x3000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.80543058 s
+
+
+3000x3000x3000	0.080543 s	670.448842 GFLOPS
+Results saved to openblas_d.csv
+3000, 3000, 3000, 0.080963, 666.967387
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3000x3000) and matrix B(3000x3000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.80963479 s
+
+
+3000x3000x3000	0.080963 s	666.967387 GFLOPS
+Results saved to openblas_d.csv
+3000, 3000, 3000, 0.079724, 677.335911
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3000x3000) and matrix B(3000x3000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.79724106 s
+
+
+3000x3000x3000	0.079724 s	677.335911 GFLOPS
+Results saved to openblas_d.csv
+3000, 3000, 3000, 0.080008, 674.931950
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3000x3000) and matrix B(3000x3000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.80008066 s
+
+
+3000x3000x3000	0.080008 s	674.931950 GFLOPS
+Results saved to openblas_d.csv
+3000, 3000, 3000, 0.079039, 683.206091
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3000x3000) and matrix B(3000x3000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.79039108 s
+
+
+3000x3000x3000	0.079039 s	683.206091 GFLOPS
+Results saved to openblas_d.csv
+3500, 3500, 3500, 0.124923, 686.420595
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3500x3500) and matrix B(3500x3500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.124923408 s
+
+
+3500x3500x3500	0.124923 s	686.420595 GFLOPS
+Results saved to openblas_d.csv
+3500, 3500, 3500, 0.125511, 683.204725
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3500x3500) and matrix B(3500x3500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.125511427 s
+
+
+3500x3500x3500	0.125511 s	683.204725 GFLOPS
+Results saved to openblas_d.csv
+3500, 3500, 3500, 0.128226, 668.741499
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3500x3500) and matrix B(3500x3500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.128225929 s
+
+
+3500x3500x3500	0.128226 s	668.741499 GFLOPS
+Results saved to openblas_d.csv
+3500, 3500, 3500, 0.124800, 687.097239
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3500x3500) and matrix B(3500x3500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.124800385 s
+
+
+3500x3500x3500	0.124800 s	687.097239 GFLOPS
+Results saved to openblas_d.csv
+3500, 3500, 3500, 0.124468, 688.933944
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(3500x3500) and matrix B(3500x3500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.124467666 s
+
+
+3500x3500x3500	0.124468 s	688.933944 GFLOPS
+Results saved to openblas_d.csv
+4000, 4000, 4000, 0.181550, 705.041511
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4000x4000) and matrix B(4000x4000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.181549594 s
+
+
+4000x4000x4000	0.181550 s	705.041511 GFLOPS
+Results saved to openblas_d.csv
+4000, 4000, 4000, 0.177909, 719.469714
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4000x4000) and matrix B(4000x4000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.177908809 s
+
+
+4000x4000x4000	0.177909 s	719.469714 GFLOPS
+Results saved to openblas_d.csv
+4000, 4000, 4000, 0.187776, 681.664917
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4000x4000) and matrix B(4000x4000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.187775543 s
+
+
+4000x4000x4000	0.187776 s	681.664917 GFLOPS
+Results saved to openblas_d.csv
+4000, 4000, 4000, 0.174571, 733.225976
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4000x4000) and matrix B(4000x4000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.174571011 s
+
+
+4000x4000x4000	0.174571 s	733.225976 GFLOPS
+Results saved to openblas_d.csv
+4000, 4000, 4000, 0.184505, 693.749949
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4000x4000) and matrix B(4000x4000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.184504518 s
+
+
+4000x4000x4000	0.184505 s	693.749949 GFLOPS
+Results saved to openblas_d.csv
+4500, 4500, 4500, 0.261454, 697.064423
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4500x4500) and matrix B(4500x4500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.261453596 s
+
+
+4500x4500x4500	0.261454 s	697.064423 GFLOPS
+Results saved to openblas_d.csv
+4500, 4500, 4500, 0.260157, 700.539216
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4500x4500) and matrix B(4500x4500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.260156742 s
+
+
+4500x4500x4500	0.260157 s	700.539216 GFLOPS
+Results saved to openblas_d.csv
+4500, 4500, 4500, 0.245768, 741.552539
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4500x4500) and matrix B(4500x4500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.245768156 s
+
+
+4500x4500x4500	0.245768 s	741.552539 GFLOPS
+Results saved to openblas_d.csv
+4500, 4500, 4500, 0.257191, 708.615965
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4500x4500) and matrix B(4500x4500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.257191496 s
+
+
+4500x4500x4500	0.257191 s	708.615965 GFLOPS
+Results saved to openblas_d.csv
+4500, 4500, 4500, 0.250679, 727.025715
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(4500x4500) and matrix B(4500x4500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.250678891 s
+
+
+4500x4500x4500	0.250679 s	727.025715 GFLOPS
+Results saved to openblas_d.csv
+5000, 5000, 5000, 0.333484, 749.662142
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.333483560 s
+
+
+5000x5000x5000	0.333484 s	749.662142 GFLOPS
+Results saved to openblas_d.csv
+5000, 5000, 5000, 0.356166, 701.920471
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.356165706 s
+
+
+5000x5000x5000	0.356166 s	701.920471 GFLOPS
+Results saved to openblas_d.csv
+5000, 5000, 5000, 0.337517, 740.702815
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.337517281 s
+
+
+5000x5000x5000	0.337517 s	740.702815 GFLOPS
+Results saved to openblas_d.csv
+5000, 5000, 5000, 0.377565, 662.137130
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.377565294 s
+
+
+5000x5000x5000	0.377565 s	662.137130 GFLOPS
+Results saved to openblas_d.csv
+5000, 5000, 5000, 0.336455, 743.041669
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5000x5000) and matrix B(5000x5000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.336454886 s
+
+
+5000x5000x5000	0.336455 s	743.041669 GFLOPS
+Results saved to openblas_d.csv
+5500, 5500, 5500, 0.452235, 735.790803
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5500x5500) and matrix B(5500x5500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.452234519 s
+
+
+5500x5500x5500	0.452235 s	735.790803 GFLOPS
+Results saved to openblas_d.csv
+5500, 5500, 5500, 0.461910, 720.378552
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5500x5500) and matrix B(5500x5500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.461909921 s
+
+
+5500x5500x5500	0.461910 s	720.378552 GFLOPS
+Results saved to openblas_d.csv
+5500, 5500, 5500, 0.453285, 734.085960
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5500x5500) and matrix B(5500x5500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.453284790 s
+
+
+5500x5500x5500	0.453285 s	734.085960 GFLOPS
+Results saved to openblas_d.csv
+5500, 5500, 5500, 0.443184, 750.817088
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5500x5500) and matrix B(5500x5500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.443183840 s
+
+
+5500x5500x5500	0.443184 s	750.817088 GFLOPS
+Results saved to openblas_d.csv
+5500, 5500, 5500, 0.436221, 762.801258
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(5500x5500) and matrix B(5500x5500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.436221095 s
+
+
+5500x5500x5500	0.436221 s	762.801258 GFLOPS
+Results saved to openblas_d.csv
+6000, 6000, 6000, 0.570390, 757.376427
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6000x6000) and matrix B(6000x6000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.570390079 s
+
+
+6000x6000x6000	0.570390 s	757.376427 GFLOPS
+Results saved to openblas_d.csv
+6000, 6000, 6000, 0.571411, 756.023560
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6000x6000) and matrix B(6000x6000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.571410764 s
+
+
+6000x6000x6000	0.571411 s	756.023560 GFLOPS
+Results saved to openblas_d.csv
+6000, 6000, 6000, 0.569749, 758.228864
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6000x6000) and matrix B(6000x6000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.569748819 s
+
+
+6000x6000x6000	0.569749 s	758.228864 GFLOPS
+Results saved to openblas_d.csv
+6000, 6000, 6000, 0.567158, 761.691931
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6000x6000) and matrix B(6000x6000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.567158430 s
+
+
+6000x6000x6000	0.567158 s	761.691931 GFLOPS
+Results saved to openblas_d.csv
+6000, 6000, 6000, 0.566901, 762.038346
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6000x6000) and matrix B(6000x6000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.566900606 s
+
+
+6000x6000x6000	0.566901 s	762.038346 GFLOPS
+Results saved to openblas_d.csv
+6500, 6500, 6500, 0.724010, 758.622137
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6500x6500) and matrix B(6500x6500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.724009982 s
+
+
+6500x6500x6500	0.724010 s	758.622137 GFLOPS
+Results saved to openblas_d.csv
+6500, 6500, 6500, 0.740420, 741.808765
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6500x6500) and matrix B(6500x6500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.740419938 s
+
+
+6500x6500x6500	0.740420 s	741.808765 GFLOPS
+Results saved to openblas_d.csv
+6500, 6500, 6500, 0.760044, 722.655101
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6500x6500) and matrix B(6500x6500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.760044452 s
+
+
+6500x6500x6500	0.760044 s	722.655101 GFLOPS
+Results saved to openblas_d.csv
+6500, 6500, 6500, 0.727826, 754.645029
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6500x6500) and matrix B(6500x6500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.727825638 s
+
+
+6500x6500x6500	0.727826 s	754.645029 GFLOPS
+Results saved to openblas_d.csv
+6500, 6500, 6500, 0.714358, 768.872027
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(6500x6500) and matrix B(6500x6500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.714358152 s
+
+
+6500x6500x6500	0.714358 s	768.872027 GFLOPS
+Results saved to openblas_d.csv
+7000, 7000, 7000, 0.892521, 768.609697
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7000x7000) and matrix B(7000x7000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.892520616 s
+
+
+7000x7000x7000	0.892521 s	768.609697 GFLOPS
+Results saved to openblas_d.csv
+7000, 7000, 7000, 0.966072, 710.091825
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7000x7000) and matrix B(7000x7000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.966072240 s
+
+
+7000x7000x7000	0.966072 s	710.091825 GFLOPS
+Results saved to openblas_d.csv
+7000, 7000, 7000, 0.912881, 751.467356
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7000x7000) and matrix B(7000x7000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.912880639 s
+
+
+7000x7000x7000	0.912881 s	751.467356 GFLOPS
+Results saved to openblas_d.csv
+7000, 7000, 7000, 0.892093, 768.978442
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7000x7000) and matrix B(7000x7000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.892092629 s
+
+
+7000x7000x7000	0.892093 s	768.978442 GFLOPS
+Results saved to openblas_d.csv
+7000, 7000, 7000, 0.922402, 743.710266
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7000x7000) and matrix B(7000x7000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 0.922402219 s
+
+
+7000x7000x7000	0.922402 s	743.710266 GFLOPS
+Results saved to openblas_d.csv
+7500, 7500, 7500, 1.122292, 751.809929
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7500x7500) and matrix B(7500x7500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.122291642 s
+
+
+7500x7500x7500	1.122292 s	751.809929 GFLOPS
+Results saved to openblas_d.csv
+7500, 7500, 7500, 1.103830, 764.383710
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7500x7500) and matrix B(7500x7500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.103830431 s
+
+
+7500x7500x7500	1.103830 s	764.383710 GFLOPS
+Results saved to openblas_d.csv
+7500, 7500, 7500, 1.149455, 734.043836
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7500x7500) and matrix B(7500x7500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.149454513 s
+
+
+7500x7500x7500	1.149455 s	734.043836 GFLOPS
+Results saved to openblas_d.csv
+7500, 7500, 7500, 1.137850, 741.530194
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7500x7500) and matrix B(7500x7500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.137849823 s
+
+
+7500x7500x7500	1.137850 s	741.530194 GFLOPS
+Results saved to openblas_d.csv
+7500, 7500, 7500, 1.189784, 709.162491
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(7500x7500) and matrix B(7500x7500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.189783739 s
+
+
+7500x7500x7500	1.189784 s	709.162491 GFLOPS
+Results saved to openblas_d.csv
+8000, 8000, 8000, 1.316943, 777.558192
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8000x8000) and matrix B(8000x8000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.316943234 s
+
+
+8000x8000x8000	1.316943 s	777.558192 GFLOPS
+Results saved to openblas_d.csv
+8000, 8000, 8000, 1.436409, 712.888932
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8000x8000) and matrix B(8000x8000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.436408891 s
+
+
+8000x8000x8000	1.436409 s	712.888932 GFLOPS
+Results saved to openblas_d.csv
+8000, 8000, 8000, 1.328161, 770.990623
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8000x8000) and matrix B(8000x8000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.328161419 s
+
+
+8000x8000x8000	1.328161 s	770.990623 GFLOPS
+Results saved to openblas_d.csv
+8000, 8000, 8000, 1.337584, 765.559500
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8000x8000) and matrix B(8000x8000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.337583819 s
+
+
+8000x8000x8000	1.337584 s	765.559500 GFLOPS
+Results saved to openblas_d.csv
+8000, 8000, 8000, 1.400346, 731.247733
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8000x8000) and matrix B(8000x8000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.400346222 s
+
+
+8000x8000x8000	1.400346 s	731.247733 GFLOPS
+Results saved to openblas_d.csv
+8500, 8500, 8500, 1.600367, 767.480422
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8500x8500) and matrix B(8500x8500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.600366556 s
+
+
+8500x8500x8500	1.600367 s	767.480422 GFLOPS
+Results saved to openblas_d.csv
+8500, 8500, 8500, 1.632146, 752.536625
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8500x8500) and matrix B(8500x8500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.632146475 s
+
+
+8500x8500x8500	1.632146 s	752.536625 GFLOPS
+Results saved to openblas_d.csv
+8500, 8500, 8500, 1.678493, 731.757626
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8500x8500) and matrix B(8500x8500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.678492927 s
+
+
+8500x8500x8500	1.678493 s	731.757626 GFLOPS
+Results saved to openblas_d.csv
+8500, 8500, 8500, 1.682656, 729.946974
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8500x8500) and matrix B(8500x8500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.682656473 s
+
+
+8500x8500x8500	1.682656 s	729.946974 GFLOPS
+Results saved to openblas_d.csv
+8500, 8500, 8500, 1.631042, 753.046238
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(8500x8500) and matrix B(8500x8500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.631041945 s
+
+
+8500x8500x8500	1.631042 s	753.046238 GFLOPS
+Results saved to openblas_d.csv
+9000, 9000, 9000, 1.889370, 771.685724
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9000x9000) and matrix B(9000x9000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.889370186 s
+
+
+9000x9000x9000	1.889370 s	771.685724 GFLOPS
+Results saved to openblas_d.csv
+9000, 9000, 9000, 1.982193, 735.549025
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9000x9000) and matrix B(9000x9000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.982192824 s
+
+
+9000x9000x9000	1.982193 s	735.549025 GFLOPS
+Results saved to openblas_d.csv
+9000, 9000, 9000, 1.964710, 742.094409
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9000x9000) and matrix B(9000x9000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.964709588 s
+
+
+9000x9000x9000	1.964710 s	742.094409 GFLOPS
+Results saved to openblas_d.csv
+9000, 9000, 9000, 1.929088, 755.797574
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9000x9000) and matrix B(9000x9000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.929087961 s
+
+
+9000x9000x9000	1.929088 s	755.797574 GFLOPS
+Results saved to openblas_d.csv
+9000, 9000, 9000, 1.966787, 741.310662
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9000x9000) and matrix B(9000x9000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 1.966786766 s
+
+
+9000x9000x9000	1.966787 s	741.310662 GFLOPS
+Results saved to openblas_d.csv
+9500, 9500, 9500, 2.296847, 746.566927
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9500x9500) and matrix B(9500x9500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.296846991 s
+
+
+9500x9500x9500	2.296847 s	746.566927 GFLOPS
+Results saved to openblas_d.csv
+9500, 9500, 9500, 2.285294, 750.341010
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9500x9500) and matrix B(9500x9500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.285294256 s
+
+
+9500x9500x9500	2.285294 s	750.341010 GFLOPS
+Results saved to openblas_d.csv
+9500, 9500, 9500, 2.197411, 780.350125
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9500x9500) and matrix B(9500x9500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.197411067 s
+
+
+9500x9500x9500	2.197411 s	780.350125 GFLOPS
+Results saved to openblas_d.csv
+9500, 9500, 9500, 2.190347, 782.866772
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9500x9500) and matrix B(9500x9500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.190347146 s
+
+
+9500x9500x9500	2.190347 s	782.866772 GFLOPS
+Results saved to openblas_d.csv
+9500, 9500, 9500, 2.326029, 737.200695
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(9500x9500) and matrix B(9500x9500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.326028735 s
+
+
+9500x9500x9500	2.326029 s	737.200695 GFLOPS
+Results saved to openblas_d.csv
+10000, 10000, 10000, 2.568395, 778.696556
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.568394563 s
+
+
+10000x10000x10000	2.568395 s	778.696556 GFLOPS
+Results saved to openblas_d.csv
+10000, 10000, 10000, 2.542435, 786.647591
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.542434531 s
+
+
+10000x10000x10000	2.542435 s	786.647591 GFLOPS
+Results saved to openblas_d.csv
+10000, 10000, 10000, 2.634153, 759.257256
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.634153290 s
+
+
+10000x10000x10000	2.634153 s	759.257256 GFLOPS
+Results saved to openblas_d.csv
+10000, 10000, 10000, 2.589016, 772.494223
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.589016124 s
+
+
+10000x10000x10000	2.589016 s	772.494223 GFLOPS
+Results saved to openblas_d.csv
+10000, 10000, 10000, 2.570078, 778.186513
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10000x10000) and matrix B(10000x10000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 2.570077953 s
+
+
+10000x10000x10000	2.570078 s	778.186513 GFLOPS
+Results saved to openblas_d.csv
+10500, 10500, 10500, 3.010223, 769.129151
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10500x10500) and matrix B(10500x10500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.10222661 s
+
+
+10500x10500x10500	3.010223 s	769.129151 GFLOPS
+Results saved to openblas_d.csv
+10500, 10500, 10500, 3.019831, 766.682084
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10500x10500) and matrix B(10500x10500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.19830575 s
+
+
+10500x10500x10500	3.019831 s	766.682084 GFLOPS
+Results saved to openblas_d.csv
+10500, 10500, 10500, 3.013697, 768.242389
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10500x10500) and matrix B(10500x10500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.13697282 s
+
+
+10500x10500x10500	3.013697 s	768.242389 GFLOPS
+Results saved to openblas_d.csv
+10500, 10500, 10500, 3.070667, 753.989333
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10500x10500) and matrix B(10500x10500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.70666784 s
+
+
+10500x10500x10500	3.070667 s	753.989333 GFLOPS
+Results saved to openblas_d.csv
+10500, 10500, 10500, 3.011317, 768.849674
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(10500x10500) and matrix B(10500x10500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.11316879 s
+
+
+10500x10500x10500	3.011317 s	768.849674 GFLOPS
+Results saved to openblas_d.csv
+11000, 11000, 11000, 3.694930, 720.446604
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11000x11000) and matrix B(11000x11000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.694930319 s
+
+
+11000x11000x11000	3.694930 s	720.446604 GFLOPS
+Results saved to openblas_d.csv
+11000, 11000, 11000, 3.466573, 767.905469
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11000x11000) and matrix B(11000x11000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.466572522 s
+
+
+11000x11000x11000	3.466573 s	767.905469 GFLOPS
+Results saved to openblas_d.csv
+11000, 11000, 11000, 3.714063, 716.735204
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11000x11000) and matrix B(11000x11000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.714063414 s
+
+
+11000x11000x11000	3.714063 s	716.735204 GFLOPS
+Results saved to openblas_d.csv
+11000, 11000, 11000, 3.552798, 749.268532
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11000x11000) and matrix B(11000x11000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.552798345 s
+
+
+11000x11000x11000	3.552798 s	749.268532 GFLOPS
+Results saved to openblas_d.csv
+11000, 11000, 11000, 3.499820, 760.610576
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11000x11000) and matrix B(11000x11000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.499819862 s
+
+
+11000x11000x11000	3.499820 s	760.610576 GFLOPS
+Results saved to openblas_d.csv
+11500, 11500, 11500, 3.999740, 760.486863
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11500x11500) and matrix B(11500x11500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 3.999740363 s
+
+
+11500x11500x11500	3.999740 s	760.486863 GFLOPS
+Results saved to openblas_d.csv
+11500, 11500, 11500, 4.065671, 748.154404
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11500x11500) and matrix B(11500x11500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.65671452 s
+
+
+11500x11500x11500	4.065671 s	748.154404 GFLOPS
+Results saved to openblas_d.csv
+11500, 11500, 11500, 4.043506, 752.255590
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11500x11500) and matrix B(11500x11500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.43506009 s
+
+
+11500x11500x11500	4.043506 s	752.255590 GFLOPS
+Results saved to openblas_d.csv
+11500, 11500, 11500, 4.003042, 759.859539
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11500x11500) and matrix B(11500x11500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.3042463 s
+
+
+11500x11500x11500	4.003042 s	759.859539 GFLOPS
+Results saved to openblas_d.csv
+11500, 11500, 11500, 4.025006, 755.713098
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(11500x11500) and matrix B(11500x11500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.25006327 s
+
+
+11500x11500x11500	4.025006 s	755.713098 GFLOPS
+Results saved to openblas_d.csv
+12000, 12000, 12000, 4.520776, 764.470539
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12000x12000) and matrix B(12000x12000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.520775916 s
+
+
+12000x12000x12000	4.520776 s	764.470539 GFLOPS
+Results saved to openblas_d.csv
+12000, 12000, 12000, 4.574114, 755.556092
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12000x12000) and matrix B(12000x12000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.574114400 s
+
+
+12000x12000x12000	4.574114 s	755.556092 GFLOPS
+Results saved to openblas_d.csv
+12000, 12000, 12000, 4.538571, 761.473105
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12000x12000) and matrix B(12000x12000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.538571327 s
+
+
+12000x12000x12000	4.538571 s	761.473105 GFLOPS
+Results saved to openblas_d.csv
+12000, 12000, 12000, 4.564380, 757.167511
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12000x12000) and matrix B(12000x12000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.564379680 s
+
+
+12000x12000x12000	4.564380 s	757.167511 GFLOPS
+Results saved to openblas_d.csv
+12000, 12000, 12000, 4.478714, 771.649991
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12000x12000) and matrix B(12000x12000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 4.478714498 s
+
+
+12000x12000x12000	4.478714 s	771.649991 GFLOPS
+Results saved to openblas_d.csv
+12500, 12500, 12500, 5.090139, 767.415158
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12500x12500) and matrix B(12500x12500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.90139229 s
+
+
+12500x12500x12500	5.090139 s	767.415158 GFLOPS
+Results saved to openblas_d.csv
+12500, 12500, 12500, 5.292679, 738.047734
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12500x12500) and matrix B(12500x12500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.292679345 s
+
+
+12500x12500x12500	5.292679 s	738.047734 GFLOPS
+Results saved to openblas_d.csv
+12500, 12500, 12500, 5.106182, 765.004030
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12500x12500) and matrix B(12500x12500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.106182248 s
+
+
+12500x12500x12500	5.106182 s	765.004030 GFLOPS
+Results saved to openblas_d.csv
+12500, 12500, 12500, 5.082340, 768.592754
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12500x12500) and matrix B(12500x12500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.82340395 s
+
+
+12500x12500x12500	5.082340 s	768.592754 GFLOPS
+Results saved to openblas_d.csv
+12500, 12500, 12500, 5.075491, 769.629953
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(12500x12500) and matrix B(12500x12500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.75491128 s
+
+
+12500x12500x12500	5.075491 s	769.629953 GFLOPS
+Results saved to openblas_d.csv
+13000, 13000, 13000, 5.865694, 749.101435
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13000x13000) and matrix B(13000x13000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.865694274 s
+
+
+13000x13000x13000	5.865694 s	749.101435 GFLOPS
+Results saved to openblas_d.csv
+13000, 13000, 13000, 5.835098, 753.029387
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13000x13000) and matrix B(13000x13000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.835097639 s
+
+
+13000x13000x13000	5.835098 s	753.029387 GFLOPS
+Results saved to openblas_d.csv
+13000, 13000, 13000, 5.732839, 766.461492
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13000x13000) and matrix B(13000x13000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.732838567 s
+
+
+13000x13000x13000	5.732839 s	766.461492 GFLOPS
+Results saved to openblas_d.csv
+13000, 13000, 13000, 5.659374, 776.411019
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13000x13000) and matrix B(13000x13000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.659373568 s
+
+
+13000x13000x13000	5.659374 s	776.411019 GFLOPS
+Results saved to openblas_d.csv
+13000, 13000, 13000, 5.610101, 783.230092
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13000x13000) and matrix B(13000x13000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 5.610101097 s
+
+
+13000x13000x13000	5.610101 s	783.230092 GFLOPS
+Results saved to openblas_d.csv
+13500, 13500, 13500, 6.274914, 784.193975
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13500x13500) and matrix B(13500x13500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.274914315 s
+
+
+13500x13500x13500	6.274914 s	784.193975 GFLOPS
+Results saved to openblas_d.csv
+13500, 13500, 13500, 6.403655, 768.428286
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13500x13500) and matrix B(13500x13500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.403655473 s
+
+
+13500x13500x13500	6.403655 s	768.428286 GFLOPS
+Results saved to openblas_d.csv
+13500, 13500, 13500, 6.487684, 758.475558
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13500x13500) and matrix B(13500x13500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.487684339 s
+
+
+13500x13500x13500	6.487684 s	758.475558 GFLOPS
+Results saved to openblas_d.csv
+13500, 13500, 13500, 6.521252, 754.571359
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13500x13500) and matrix B(13500x13500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.521252024 s
+
+
+13500x13500x13500	6.521252 s	754.571359 GFLOPS
+Results saved to openblas_d.csv
+13500, 13500, 13500, 6.352449, 774.622490
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(13500x13500) and matrix B(13500x13500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.352449178 s
+
+
+13500x13500x13500	6.352449 s	774.622490 GFLOPS
+Results saved to openblas_d.csv
+14000, 14000, 14000, 7.272644, 754.608690
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14000x14000) and matrix B(14000x14000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.272643521 s
+
+
+14000x14000x14000	7.272644 s	754.608690 GFLOPS
+Results saved to openblas_d.csv
+14000, 14000, 14000, 7.038070, 779.759244
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14000x14000) and matrix B(14000x14000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.38069818 s
+
+
+14000x14000x14000	7.038070 s	779.759244 GFLOPS
+Results saved to openblas_d.csv
+14000, 14000, 14000, 6.964396, 788.008007
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14000x14000) and matrix B(14000x14000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 6.964396239 s
+
+
+14000x14000x14000	6.964396 s	788.008007 GFLOPS
+Results saved to openblas_d.csv
+14000, 14000, 14000, 7.045564, 778.929890
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14000x14000) and matrix B(14000x14000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.45563501 s
+
+
+14000x14000x14000	7.045564 s	778.929890 GFLOPS
+Results saved to openblas_d.csv
+14000, 14000, 14000, 7.082864, 774.827778
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14000x14000) and matrix B(14000x14000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.82864289 s
+
+
+14000x14000x14000	7.082864 s	774.827778 GFLOPS
+Results saved to openblas_d.csv
+14500, 14500, 14500, 7.826902, 779.011965
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14500x14500) and matrix B(14500x14500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.826901603 s
+
+
+14500x14500x14500	7.826902 s	779.011965 GFLOPS
+Results saved to openblas_d.csv
+14500, 14500, 14500, 8.031393, 759.177112
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14500x14500) and matrix B(14500x14500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.31393336 s
+
+
+14500x14500x14500	8.031393 s	759.177112 GFLOPS
+Results saved to openblas_d.csv
+14500, 14500, 14500, 8.131240, 749.854899
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14500x14500) and matrix B(14500x14500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.131239803 s
+
+
+14500x14500x14500	8.131240 s	749.854899 GFLOPS
+Results saved to openblas_d.csv
+14500, 14500, 14500, 7.965813, 765.427195
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14500x14500) and matrix B(14500x14500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.965813126 s
+
+
+14500x14500x14500	7.965813 s	765.427195 GFLOPS
+Results saved to openblas_d.csv
+14500, 14500, 14500, 7.845719, 777.143582
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(14500x14500) and matrix B(14500x14500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 7.845718788 s
+
+
+14500x14500x14500	7.845719 s	777.143582 GFLOPS
+Results saved to openblas_d.csv
+15000, 15000, 15000, 8.818657, 765.422637
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15000x15000) and matrix B(15000x15000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.818657398 s
+
+
+15000x15000x15000	8.818657 s	765.422637 GFLOPS
+Results saved to openblas_d.csv
+15000, 15000, 15000, 8.849964, 762.715002
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15000x15000) and matrix B(15000x15000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.849963589 s
+
+
+15000x15000x15000	8.849964 s	762.715002 GFLOPS
+Results saved to openblas_d.csv
+15000, 15000, 15000, 8.660018, 779.444128
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15000x15000) and matrix B(15000x15000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.660017772 s
+
+
+15000x15000x15000	8.660018 s	779.444128 GFLOPS
+Results saved to openblas_d.csv
+15000, 15000, 15000, 8.815227, 765.720458
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15000x15000) and matrix B(15000x15000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.815227449 s
+
+
+15000x15000x15000	8.815227 s	765.720458 GFLOPS
+Results saved to openblas_d.csv
+15000, 15000, 15000, 8.887015, 759.535084
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15000x15000) and matrix B(15000x15000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 8.887015419 s
+
+
+15000x15000x15000	8.887015 s	759.535084 GFLOPS
+Results saved to openblas_d.csv
+15500, 15500, 15500, 9.424298, 790.271080
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15500x15500) and matrix B(15500x15500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 9.424297800 s
+
+
+15500x15500x15500	9.424298 s	790.271080 GFLOPS
+Results saved to openblas_d.csv
+15500, 15500, 15500, 9.800569, 759.930395
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15500x15500) and matrix B(15500x15500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 9.800568649 s
+
+
+15500x15500x15500	9.800569 s	759.930395 GFLOPS
+Results saved to openblas_d.csv
+15500, 15500, 15500, 9.924875, 750.412461
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15500x15500) and matrix B(15500x15500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 9.924875169 s
+
+
+15500x15500x15500	9.924875 s	750.412461 GFLOPS
+Results saved to openblas_d.csv
+15500, 15500, 15500, 9.686358, 768.890663
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15500x15500) and matrix B(15500x15500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 9.686357707 s
+
+
+15500x15500x15500	9.686358 s	768.890663 GFLOPS
+Results saved to openblas_d.csv
+15500, 15500, 15500, 9.479283, 785.687073
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(15500x15500) and matrix B(15500x15500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 9.479282860 s
+
+
+15500x15500x15500	9.479283 s	785.687073 GFLOPS
+Results saved to openblas_d.csv
+16000, 16000, 16000, 10.364997, 790.352343
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16000x16000) and matrix B(16000x16000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 10.364997428 s
+
+
+16000x16000x16000	10.364997 s	790.352343 GFLOPS
+Results saved to openblas_d.csv
+16000, 16000, 16000, 10.576974, 774.512628
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16000x16000) and matrix B(16000x16000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 10.576974095 s
+
+
+16000x16000x16000	10.576974 s	774.512628 GFLOPS
+Results saved to openblas_d.csv
+16000, 16000, 16000, 10.470118, 782.417126
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16000x16000) and matrix B(16000x16000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 10.470118469 s
+
+
+16000x16000x16000	10.470118 s	782.417126 GFLOPS
+Results saved to openblas_d.csv
+16000, 16000, 16000, 10.383846, 788.917723
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16000x16000) and matrix B(16000x16000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 10.383845822 s
+
+
+16000x16000x16000	10.383846 s	788.917723 GFLOPS
+Results saved to openblas_d.csv
+16000, 16000, 16000, 10.653951, 768.916646
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16000x16000) and matrix B(16000x16000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 10.653950653 s
+
+
+16000x16000x16000	10.653951 s	768.916646 GFLOPS
+Results saved to openblas_d.csv
+16500, 16500, 16500, 11.902347, 754.830149
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16500x16500) and matrix B(16500x16500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 11.902346521 s
+
+
+16500x16500x16500	11.902347 s	754.830149 GFLOPS
+Results saved to openblas_d.csv
+16500, 16500, 16500, 11.787818, 762.163951
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16500x16500) and matrix B(16500x16500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 11.787818083 s
+
+
+16500x16500x16500	11.787818 s	762.163951 GFLOPS
+Results saved to openblas_d.csv
+16500, 16500, 16500, 11.550517, 777.822336
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16500x16500) and matrix B(16500x16500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 11.550516852 s
+
+
+16500x16500x16500	11.550517 s	777.822336 GFLOPS
+Results saved to openblas_d.csv
+16500, 16500, 16500, 11.737018, 765.462758
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16500x16500) and matrix B(16500x16500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 11.737017786 s
+
+
+16500x16500x16500	11.737018 s	765.462758 GFLOPS
+Results saved to openblas_d.csv
+16500, 16500, 16500, 11.471312, 783.192863
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(16500x16500) and matrix B(16500x16500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 11.471312406 s
+
+
+16500x16500x16500	11.471312 s	783.192863 GFLOPS
+Results saved to openblas_d.csv
+17000, 17000, 17000, 12.354126, 795.361835
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17000x17000) and matrix B(17000x17000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 12.354125592 s
+
+
+17000x17000x17000	12.354126 s	795.361835 GFLOPS
+Results saved to openblas_d.csv
+17000, 17000, 17000, 13.010375, 755.243434
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17000x17000) and matrix B(17000x17000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 13.10374612 s
+
+
+17000x17000x17000	13.010375 s	755.243434 GFLOPS
+Results saved to openblas_d.csv
+17000, 17000, 17000, 12.605169, 779.521463
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17000x17000) and matrix B(17000x17000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 12.605169289 s
+
+
+17000x17000x17000	12.605169 s	779.521463 GFLOPS
+Results saved to openblas_d.csv
+17000, 17000, 17000, 12.695818, 773.955615
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17000x17000) and matrix B(17000x17000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 12.695818477 s
+
+
+17000x17000x17000	12.695818 s	773.955615 GFLOPS
+Results saved to openblas_d.csv
+17000, 17000, 17000, 12.474737, 787.671888
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17000x17000) and matrix B(17000x17000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 12.474737447 s
+
+
+17000x17000x17000	12.474737 s	787.671888 GFLOPS
+Results saved to openblas_d.csv
+17500, 17500, 17500, 14.410856, 743.796913
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17500x17500) and matrix B(17500x17500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 14.410855727 s
+
+
+17500x17500x17500	14.410856 s	743.796913 GFLOPS
+Results saved to openblas_d.csv
+17500, 17500, 17500, 13.771228, 778.343823
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17500x17500) and matrix B(17500x17500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 13.771227684 s
+
+
+17500x17500x17500	13.771228 s	778.343823 GFLOPS
+Results saved to openblas_d.csv
+17500, 17500, 17500, 13.602695, 787.987208
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17500x17500) and matrix B(17500x17500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 13.602695443 s
+
+
+17500x17500x17500	13.602695 s	787.987208 GFLOPS
+Results saved to openblas_d.csv
+17500, 17500, 17500, 13.489436, 794.603263
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17500x17500) and matrix B(17500x17500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 13.489436166 s
+
+
+17500x17500x17500	13.489436 s	794.603263 GFLOPS
+Results saved to openblas_d.csv
+17500, 17500, 17500, 13.606326, 787.776923
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(17500x17500) and matrix B(17500x17500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 13.606326465 s
+
+
+17500x17500x17500	13.606326 s	787.776923 GFLOPS
+Results saved to openblas_d.csv
+18000, 18000, 18000, 14.759367, 790.277790
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18000x18000) and matrix B(18000x18000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 14.759367075 s
+
+
+18000x18000x18000	14.759367 s	790.277790 GFLOPS
+Results saved to openblas_d.csv
+18000, 18000, 18000, 14.753884, 790.571499
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18000x18000) and matrix B(18000x18000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 14.753883765 s
+
+
+18000x18000x18000	14.753884 s	790.571499 GFLOPS
+Results saved to openblas_d.csv
+18000, 18000, 18000, 14.731540, 791.770555
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18000x18000) and matrix B(18000x18000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 14.731540497 s
+
+
+18000x18000x18000	14.731540 s	791.770555 GFLOPS
+Results saved to openblas_d.csv
+18000, 18000, 18000, 15.152606, 769.768565
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18000x18000) and matrix B(18000x18000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 15.152606300 s
+
+
+18000x18000x18000	15.152606 s	769.768565 GFLOPS
+Results saved to openblas_d.csv
+18000, 18000, 18000, 15.711144, 742.402974
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18000x18000) and matrix B(18000x18000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 15.711143961 s
+
+
+18000x18000x18000	15.711144 s	742.402974 GFLOPS
+Results saved to openblas_d.csv
+18500, 18500, 18500, 18.238037, 694.331839
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18500x18500) and matrix B(18500x18500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 18.238037331 s
+
+
+18500x18500x18500	18.238037 s	694.331839 GFLOPS
+Results saved to openblas_d.csv
+18500, 18500, 18500, 16.186847, 782.317295
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18500x18500) and matrix B(18500x18500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 16.186846549 s
+
+
+18500x18500x18500	16.186847 s	782.317295 GFLOPS
+Results saved to openblas_d.csv
+18500, 18500, 18500, 16.190400, 782.145615
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18500x18500) and matrix B(18500x18500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 16.190399524 s
+
+
+18500x18500x18500	16.190400 s	782.145615 GFLOPS
+Results saved to openblas_d.csv
+18500, 18500, 18500, 16.009697, 790.973731
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18500x18500) and matrix B(18500x18500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 16.9697297 s
+
+
+18500x18500x18500	16.009697 s	790.973731 GFLOPS
+Results saved to openblas_d.csv
+18500, 18500, 18500, 16.009407, 790.988049
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(18500x18500) and matrix B(18500x18500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 16.9407494 s
+
+
+18500x18500x18500	16.009407 s	790.988049 GFLOPS
+Results saved to openblas_d.csv
+19000, 19000, 19000, 17.654377, 777.031091
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19000x19000) and matrix B(19000x19000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 17.654377231 s
+
+
+19000x19000x19000	17.654377 s	777.031091 GFLOPS
+Results saved to openblas_d.csv
+19000, 19000, 19000, 17.390885, 788.804034
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19000x19000) and matrix B(19000x19000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 17.390884700 s
+
+
+19000x19000x19000	17.390885 s	788.804034 GFLOPS
+Results saved to openblas_d.csv
+19000, 19000, 19000, 17.195694, 797.757873
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19000x19000) and matrix B(19000x19000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 17.195693667 s
+
+
+19000x19000x19000	17.195694 s	797.757873 GFLOPS
+Results saved to openblas_d.csv
+19000, 19000, 19000, 17.122051, 801.189069
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19000x19000) and matrix B(19000x19000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 17.122050876 s
+
+
+19000x19000x19000	17.122051 s	801.189069 GFLOPS
+Results saved to openblas_d.csv
+19000, 19000, 19000, 17.301840, 792.863666
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19000x19000) and matrix B(19000x19000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 17.301839629 s
+
+
+19000x19000x19000	17.301840 s	792.863666 GFLOPS
+Results saved to openblas_d.csv
+19500, 19500, 19500, 18.515985, 800.916088
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19500x19500) and matrix B(19500x19500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 18.515984664 s
+
+
+19500x19500x19500	18.515985 s	800.916088 GFLOPS
+Results saved to openblas_d.csv
+19500, 19500, 19500, 18.580156, 798.149912
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19500x19500) and matrix B(19500x19500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 18.580156151 s
+
+
+19500x19500x19500	18.580156 s	798.149912 GFLOPS
+Results saved to openblas_d.csv
+19500, 19500, 19500, 18.899806, 784.650932
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19500x19500) and matrix B(19500x19500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 18.899805501 s
+
+
+19500x19500x19500	18.899806 s	784.650932 GFLOPS
+Results saved to openblas_d.csv
+19500, 19500, 19500, 19.027898, 779.368812
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19500x19500) and matrix B(19500x19500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 19.27897672 s
+
+
+19500x19500x19500	19.027898 s	779.368812 GFLOPS
+Results saved to openblas_d.csv
+19500, 19500, 19500, 18.499768, 801.618180
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(19500x19500) and matrix B(19500x19500)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 18.499767561 s
+
+
+19500x19500x19500	18.499768 s	801.618180 GFLOPS
+Results saved to openblas_d.csv
+20000, 20000, 20000, 20.500117, 780.483336
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(20000x20000) and matrix B(20000x20000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 20.500117384 s
+
+
+20000x20000x20000	20.500117 s	780.483336 GFLOPS
+Results saved to openblas_d.csv
+20000, 20000, 20000, 20.473553, 781.496022
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(20000x20000) and matrix B(20000x20000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 20.473552713 s
+
+
+20000x20000x20000	20.473553 s	781.496022 GFLOPS
+Results saved to openblas_d.csv
+20000, 20000, 20000, 20.495968, 780.641353
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(20000x20000) and matrix B(20000x20000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 20.495967747 s
+
+
+20000x20000x20000	20.495968 s	780.641353 GFLOPS
+Results saved to openblas_d.csv
+20000, 20000, 20000, 20.475710, 781.413675
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(20000x20000) and matrix B(20000x20000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 20.475710244 s
+
+
+20000x20000x20000	20.475710 s	781.413675 GFLOPS
+Results saved to openblas_d.csv
+20000, 20000, 20000, 20.509076, 780.142410
+
+ This example computes real matrix C=alpha*A*B+beta*C using 
+ BLAS function dgemm, where A, B, and  C are matrices and 
+ alpha and beta are scalars
+
+ Initializing data for matrix multiplication C=A*B for matrix 
+ A(20000x20000) and matrix B(20000x20000)
+
+ Using double 
+
+ Computing matrix product using gemm function via CBLAS interface 
+
+ Elapsed time 20.509076018 s
+
+
+20000x20000x20000	20.509076 s	780.142410 GFLOPS
+Results saved to openblas_d.csv

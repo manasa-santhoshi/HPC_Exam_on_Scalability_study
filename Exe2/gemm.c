@@ -177,14 +177,17 @@ int main(int argc, char** argv)
 
 
 //Added by me, part needed to save the results instead of printing them
-#ifndef SAVE
-  FILE *file;
-  file = fopen(FILENAME, "a"); //append mode
-  fprintf(file, "%d, %d, %d, %lf, %lf\n", m, n, k, elapsed, gflops);
-  fclose(file);
-  printf("File saved successfully\n");
+#ifdef SAVE
+    FILE *file = fopen(FILENAME, "a"); // append mode
+    if (file == NULL) {
+        perror("Error opening file");
+        return 1;
+    }
+    fprintf(file, "%d, %d, %d, %lf, %lf\n", m, n, k, elapsed, gflops);
+    fclose(file);
+    printf("Results saved to %s\n", FILENAME);
 #else
-printf(file, "%d, %d, %d, %lf, %lf\n", m, n, k, elapsed, gflops);
+    printf("%d, %d, %d, %lf, %lf\n", m, n, k, elapsed, gflops);
 #endif
 //---------------------------------------------------------------------
 
