@@ -1,0 +1,7 @@
+Loading OpenBLAS module...
+OpenBLAS module loaded
+Running OpenBLAS (close)... results in /u/dssc/msmaddi/HPC/Exe2/fixed_cores/EPYC/close_cores
+Execution finished for close allocation
+Running OpenBLAS (spread)... results in /u/dssc/msmaddi/HPC/Exe2/fixed_cores/EPYC/spread_cores
+Execution finished for spread allocation
+All OpenBLAS runs completed
