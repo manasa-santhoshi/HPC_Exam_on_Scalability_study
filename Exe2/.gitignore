@@ -1,0 +1,5 @@
+#ignore output files of log
+
+*.out
+
+
