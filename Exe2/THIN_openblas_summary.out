@@ -1,7 +1,0 @@
-Loading OpenBLAS module...
-OpenBLAS module loaded
-Running OpenBLAS (close)... results in /u/dssc/msmaddi/HPC/Exe2/fixed_cores/THIN/close_cores
-srun: error: Unable to confirm allocation for job 490348: Socket timed out on send/recv operation
-srun: Check SLURM_JOB_ID environment variable. Expired or invalid job 490348
-Running OpenBLAS (spread)... results in /u/dssc/msmaddi/HPC/Exe2/fixed_cores/THIN/spread_cores
-Execution finished
