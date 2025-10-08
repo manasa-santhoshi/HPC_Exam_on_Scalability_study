@@ -17,7 +17,7 @@ EXEC=gol.exe
 mpicc -fopenmp -DTIME -o $EXEC $PROG/game_of_life.c $PROG/gol_lib.c -std=c99
 
 # Test all three matrix sizes: 10k, 15k, 20k
-for matrix_dim in 10000 15000 20000; do
+for matrix_dim in 8000 10000 12000; do
     echo "Initialising playground for ${matrix_dim}x${matrix_dim}"
     mpirun -np 1 ./$EXEC -i -x $matrix_dim -y $matrix_dim -f "playground_${matrix_dim}.pgm"
 
