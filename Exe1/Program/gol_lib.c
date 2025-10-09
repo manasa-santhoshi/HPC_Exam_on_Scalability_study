@@ -128,66 +128,87 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
     bool* global = malloc(x * y * sizeof(bool));
     read_pgm_image(global, x, y, maxval, fname);
 
+    // Distribute rows among processes
     int rows = y / n_procs + (rank < y % n_procs ? 1 : 0);
     int start_row = rank * (y / n_procs) + (rank < y % n_procs ? rank : y % n_procs);
     bool* local = malloc((rows + 2) * x * sizeof(bool));
 
+    // Fill local data (including halo rows)
     for (int j = 0; j < rows; j++)
         memcpy(&local[(j + 1) * x], &global[(start_row + j) * x], x * sizeof(bool));
+    memcpy(local, &global[((start_row - 1 + y) % y) * x], x * sizeof(bool));          // top halo
+    memcpy(&local[(rows + 1) * x], &global[((start_row + rows) % y) * x], x * sizeof(bool)); // bottom halo
 
-    memcpy(local, &global[((start_row - 1 + y) % y) * x], x * sizeof(bool));
-    memcpy(&local[(rows + 1) * x], &global[((start_row + rows) % y) * x], x * sizeof(bool));
+    free(global);
 
+    // Determine actual OpenMP thread count
+    int n_threads_used = 1;
 #ifdef _OPENMP
-    int n_threads = omp_get_max_threads();
-    if (rank == 0)
-        printf("Running static evolution with %d threads (rank %d)\n", n_threads, rank);
+    #pragma omp parallel
+    {
+        #pragma omp master
+        {
+            n_threads_used = omp_get_num_threads();
+        }
+    }
 #endif
 
-    double start_time = 0.0, elapsed = 0.0;
-
+    double start_time = 0.0;
 #ifdef _OPENMP
     start_time = omp_get_wtime();
+#else
+    start_time = MPI_Wtime();
 #endif
 
+    // Evolution loop
     for (int step = 0; step < n_steps; step++) {
         bool* next = calloc(rows * x, sizeof(bool));
 
+        // Parallel evolution (static: based on frozen 'local')
         #pragma omp parallel for collapse(2)
         for (int j = 0; j < rows; j++) {
             for (int i = 0; i < x; i++) {
                 int neighbors = count_neighbors(local, j + 1, i, x, rows + 2);
-                next[j * x + i] =
-                    (neighbors == 3) ||
-                    (local[(j + 1) * x + i] && neighbors == 2);
+                next[j * x + i] = (neighbors == 3) || (local[(j + 1) * x + i] && neighbors == 2);
             }
         }
 
+        // Prepare halo rows for exchange
+        bool* top_send = next;                    // first evolved row
+        bool* bot_send = &next[(rows - 1) * x];   // last evolved row
+
+        // Halo exchange: send bottom to next, receive bottom from next (for bottom halo)
+        //                send top to prev, receive top from prev (for top halo)
+        int prev = (rank - 1 + n_procs) % n_procs;
+        int next_rank = (rank + 1) % n_procs;
+
+        MPI_Sendrecv(bot_send, x, MPI_C_BOOL, next_rank, 0,
+                     &local[(rows + 1) * x], x, MPI_C_BOOL, next_rank, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        MPI_Sendrecv(top_send, x, MPI_C_BOOL, prev, 0,
+                     local, x, MPI_C_BOOL, prev, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+
+        // Copy evolved core into local (overwriting old core, halo already updated)
         memcpy(&local[x], next, rows * x * sizeof(bool));
         free(next);
     }
 
+    double elapsed = 0.0;
 #ifdef _OPENMP
     elapsed = omp_get_wtime() - start_time;
+#else
+    elapsed = MPI_Wtime() - start_time;
 #endif
 
+// Write timing result (only rank 0)
     if (rank == 0) {
         FILE* f = fopen("times.csv", "a");
         if (f) {
-            fprintf(f, "%d,%d,%d,%d,%lf\n", x, n_steps, n_procs,
-#ifdef _OPENMP
-                    n_threads,
-#else
-                    1,
-#endif
-                    elapsed);
+            fprintf(f, "1,%d,%d,%d,%d,%lf\n", x, n_steps, n_procs, n_threads_used, elapsed);
             fclose(f);
         }
-        printf("Elapsed time: %.3f seconds\n", elapsed);
     }
 
     free(local);
-    free(global);
     MPI_Finalize();
 }
 
