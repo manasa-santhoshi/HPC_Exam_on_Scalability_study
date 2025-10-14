@@ -1,0 +1,56 @@
+#!/bin/bash
+#SBATCH --job-name=gol_omp_thin
+#SBATCH --partition=THIN
+#SBATCH --nodes=1
+#SBATCH --ntasks=1                # 1 MPI task → uses 1 socket
+#SBATCH --cpus-per-task=12        # Adjust if your THIN has 12 or 16 cores/socket
+#SBATCH --exclusive
+#SBATCH --time=02:00:00
+
+# Load module
+module load openMPI/5.0.5
+
+# Parameters
+K=15000
+NSTEPS=500
+GRID_FILE="init_${K}.pgm"
+OUTPUT_DIR="/u/dssc/msmaddi/HPC/Exe1/OpenMP_scalability/THIN"
+CSV_FILE="$OUTPUT_DIR/openmp_T_15k.csv"
+
+# Create output directory if needed
+mkdir -p "$OUTPUT_DIR"
+
+# Initialize CSV with header (only once)
+echo "k,nsteps,mpi_procs,omp_threads,evolution,time" > "$CSV_FILE"
+
+# OpenMP settings
+export OMP_PLACES=cores
+export OMP_PROC_BIND=close
+export OMP_DISPLAY_ENV=false
+
+# --- PHASE 1: Initialize playground ---
+echo "🔹 Initializing playground (k=$K) on THIN node..."
+mpirun --map-by socket ./gameoflife -i -k $K -f $GRID_FILE
+if [ $? -ne 0 ]; then
+    echo "❌ Initialization failed!"
+    exit 1
+fi
+
+# --- PHASE 2: OpenMP scaling (16 to max threads) ---
+# Option: If your C code writes to "results.csv", symlink it
+ln -sf "$CSV_FILE" results.csv
+
+# NOTE: Ensure --cpus-per-task >= max thread count (here: 16)
+for (( t = 1; t <= 12; t++ )); do
+    
+    echo "🔹 Running with OMP_NUM_THREADS=$t ..."
+    export OMP_NUM_THREADS=$t
+
+    output=$(mpirun --map-by socket ./gameoflife -r -f $GRID_FILE -k $K -n $NSTEPS -e 1 -s 0 2>&1)
+
+done
+
+# Clean up symlink (optional)
+rm -f results.csv
+
+echo "✅ Results saved to $CSV_FILE"
