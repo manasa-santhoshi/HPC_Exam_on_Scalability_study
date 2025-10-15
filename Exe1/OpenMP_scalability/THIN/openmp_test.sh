@@ -5,8 +5,8 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=12
 #SBATCH --exclusive
-#SBATCH --time=01:00:00
-#SBATCH --output="openmp_thin.out"
+#SBATCH --time=00:15:00
+#SBATCH --output="openmp_thin_test.out"
 
 module load openMPI/5.0.5
 
@@ -17,17 +17,18 @@ EXEC=gol.exe
 echo "Compiling program..."
 mpicc -fopenmp -DTIME -o $EXEC $PROG/game_of_life.c $PROG/gol_lib.c -std=c99
 
-for matrix_dim in 4000 6000 8000; do
+# Fix: use 'for ... in ...; do'
+for matrix_dim in 8000; do
     echo "=== Initialising ${matrix_dim}x${matrix_dim} ==="
     mpirun -np 1 ./$EXEC -i -x $matrix_dim -y $matrix_dim -f "playground_${matrix_dim}.pgm"
 
     echo "=== Testing thread scaling for ${matrix_dim} ==="
-    for n_threads in 1 2 4 8 12; do
+    for n_threads in 1 2 4; do
         export OMP_NUM_THREADS=$n_threads
         for rep in {1..3}; do
             mpirun -np 1 \
                    --map-by socket --bind-to core -x OMP_NUM_THREADS \
-                   ./$EXEC -r -f "playground_${matrix_dim}.pgm" -e 1 -n 50 -s 50
+                   ./$EXEC -r -f "playground_${matrix_dim}.pgm" -e 1 -n 50 -s 10
         done
     done
 done

@@ -1,0 +1,2 @@
+mpi_procs,omp_threads,time
+1,16,-1

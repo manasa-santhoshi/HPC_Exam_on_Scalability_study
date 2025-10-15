@@ -11,15 +11,10 @@ void write_pgm_image(bool* image, int xsize, int ysize, int maxval, const char* 
     FILE* fp = fopen(filename, "wb");
     if (!fp) {
         fprintf(stderr, "Error: Cannot open file %s for writing\n", filename);
-        MPI_Abort(MPI_COMM_WORLD, 1);
+        exit(1);
     }
     fprintf(fp, "P5\n%d %d\n%d\n", xsize, ysize, maxval);
     unsigned char* buffer = (unsigned char*)malloc(xsize * ysize);
-    if (!buffer) {
-        fprintf(stderr, "Error: Memory allocation failed\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
     for (int i = 0; i < xsize * ysize; i++) {
         buffer[i] = image[i] ? 0 : maxval;
     }
@@ -33,33 +28,24 @@ void read_header(int* xsize, int* ysize, int* maxval, const char* filename) {
     FILE* fp = fopen(filename, "rb");
     if (!fp) {
         fprintf(stderr, "Error: Cannot open file %s for reading\n", filename);
-        MPI_Abort(MPI_COMM_WORLD, 1);
+        exit(1);
     }
     char magic[3];
-    if (fscanf(fp, "%2s", magic) != 1) {
-        fprintf(stderr, "Error: Cannot read magic number\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
+    fscanf(fp, "%2s", magic);
     if (strcmp(magic, "P5") != 0) {
         fprintf(stderr, "Error: Not a P5 PGM file\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
+        exit(1);
     }
     // Skip comments
     int c = fgetc(fp);
-    while (c == '#' || c == ' ' || c == '\t' || c == '\n') {
+    while (c == '#' || c == '\n') {
         if (c == '#') {
             while (fgetc(fp) != '\n');
         }
         c = fgetc(fp);
     }
     ungetc(c, fp);
-    if (fscanf(fp, "%d %d %d", xsize, ysize, maxval) != 3) {
-        fprintf(stderr, "Error: Cannot read image dimensions\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
+    fscanf(fp, "%d %d %d", xsize, ysize, maxval);
     fclose(fp);
 }
 
@@ -68,69 +54,30 @@ void read_pgm_image(bool* image, int xsize, int ysize, int maxval, const char* f
     FILE* fp = fopen(filename, "rb");
     if (!fp) {
         fprintf(stderr, "Error: Cannot open file %s\n", filename);
-        MPI_Abort(MPI_COMM_WORLD, 1);
+        exit(1);
     }
     char magic[3];
-    if (fscanf(fp, "%2s", magic) != 1) {
-        fprintf(stderr, "Error: Cannot read magic number\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
+    fscanf(fp, "%2s", magic);
     int x, y, m;
     int c = fgetc(fp);
-    while (c == '#' || c == ' ' || c == '\t' || c == '\n') {
+    while (c == '#' || c == '\n') {
         if (c == '#') {
             while (fgetc(fp) != '\n');
         }
         c = fgetc(fp);
     }
     ungetc(c, fp);
-    if (fscanf(fp, "%d %d %d", &x, &y, &m) != 3) {
-        fprintf(stderr, "Error: Cannot read image dimensions\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
-
-    if (x != xsize || y != ysize || m != maxval) {
-        fprintf(stderr, "Error: Image dimensions don't match expected values\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
-
+    fscanf(fp, "%d %d %d", &x, &y, &m);
     fgetc(fp); // consume newline
 
     unsigned char* buffer = (unsigned char*)malloc(xsize * ysize);
-    if (!buffer) {
-        fprintf(stderr, "Error: Memory allocation failed\n");
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
-
-    if (fread(buffer, 1, xsize * ysize, fp) != (size_t)(xsize * ysize)) {
-        fprintf(stderr, "Error: Cannot read image data\n");
-        free(buffer);
-        fclose(fp);
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
+    fread(buffer, 1, xsize * ysize, fp);
 
     for (int i = 0; i < xsize * ysize; i++) {
         image[i] = (buffer[i] < maxval / 2);
     }
     free(buffer);
     fclose(fp);
-}
-
-// Get local information for domain decomposition
-static void get_local_info(int y, int n_procs, int rank, int* start_row, int* local_rows) {
-    int rows_per_proc = y / n_procs;
-    int remainder = y % n_procs;
-
-    *local_rows = rows_per_proc + (rank < remainder ? 1 : 0);
-    *start_row = 0;
-    for (int i = 0; i < rank; i++) {
-        int lr = rows_per_proc + (i < remainder ? 1 : 0);
-        *start_row += lr;
-    }
 }
 
 // Gather partial images from all processes (domain decomposition)
@@ -141,36 +88,23 @@ void gather_images(bool* partial, bool* full, int x, int y, int n_procs, int ran
     int* recvcounts = NULL;
     int* displs = NULL;
 
-    // Calculate local rows for this process
-    int local_rows = rows_per_proc + (rank < remainder ? 1 : 0);
-    int sendcount = local_rows * x;
-
     if (rank == 0) {
         recvcounts = (int*)malloc(n_procs * sizeof(int));
         displs = (int*)malloc(n_procs * sizeof(int));
 
-        if (!recvcounts || !displs) {
-            fprintf(stderr, "Error: Memory allocation failed in gather_images\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
-
         int offset = 0;
         for (int i = 0; i < n_procs; i++) {
-            int lr = rows_per_proc + (i < remainder ? 1 : 0);
-            recvcounts[i] = lr * x;
+            int local_rows = rows_per_proc + (i < remainder ? 1 : 0);
+            recvcounts[i] = local_rows * x;
             displs[i] = offset;
             offset += recvcounts[i];
         }
     }
 
-    // Use temporary variables for non-root processes
-    int temp_recvcount = 0;
-    int temp_displ = 0;
+    int local_rows = rows_per_proc + (rank < remainder ? 1 : 0);
+    int sendcount = local_rows * x;
 
-    MPI_Gatherv(partial, sendcount, MPI_C_BOOL,
-                full,
-                (rank == 0) ? recvcounts : &temp_recvcount,
-                (rank == 0) ? displs : &temp_displ,
+    MPI_Gatherv(partial, sendcount, MPI_C_BOOL, full, recvcounts, displs, 
                 MPI_C_BOOL, 0, MPI_COMM_WORLD);
 
     if (rank == 0) {
@@ -188,15 +122,12 @@ void initialise_playground(int x, int y, int maxval, const char* fname, int argc
 
     double start_time = MPI_Wtime();
 
-    // Calculate local domain information
-    int start_row, local_rows;
-    get_local_info(y, n_procs, rank, &start_row, &local_rows);
+    // Domain decomposition: divide rows among processes
+    int rows_per_proc = y / n_procs;
+    int remainder = y % n_procs;
+    int local_rows = rows_per_proc + (rank < remainder ? 1 : 0);
 
     bool* local_grid = (bool*)malloc(local_rows * x * sizeof(bool));
-    if (!local_grid) {
-        fprintf(stderr, "Error: Memory allocation failed in initialise_playground\n");
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
 
     // Parallelize initialization with OpenMP
     unsigned int seed = 12345 + rank * 7919;
@@ -213,13 +144,12 @@ void initialise_playground(int x, int y, int maxval, const char* fname, int argc
     bool* full_grid = NULL;
     if (rank == 0) {
         full_grid = (bool*)malloc(x * y * sizeof(bool));
-        if (!full_grid) {
-            fprintf(stderr, "Error: Memory allocation failed for full grid\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
     }
 
     gather_images(local_grid, full_grid, x, y, n_procs, rank);
+
+    // MPI Barrier to ensure all processes are done
+    MPI_Barrier(MPI_COMM_WORLD);
 
     if (rank == 0) {
         write_pgm_image(full_grid, x, y, maxval, fname);
@@ -256,27 +186,20 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
     int x, y, maxval;
     read_header(&x, &y, &maxval, fname);
 
-    // Calculate local domain information
-    int start_row, local_rows;
-    get_local_info(y, n_procs, rank, &start_row, &local_rows);
+    // Domain decomposition
+    int rows_per_proc = y / n_procs;
+    int remainder = y % n_procs;
+    int local_rows = rows_per_proc + (rank < remainder ? 1 : 0);
+    int start_row = rank * rows_per_proc + (rank < remainder ? rank : remainder);
 
     // Allocate local grid with ghost rows (halo regions)
     bool* local_grid = (bool*)calloc((local_rows + 2) * x, sizeof(bool));
     bool* local_next = (bool*)calloc((local_rows + 2) * x, sizeof(bool));
 
-    if (!local_grid || !local_next) {
-        fprintf(stderr, "Error: Memory allocation failed in static_evolution\n");
-        MPI_Abort(MPI_COMM_WORLD, 1);
-    }
-
     // Read initial state
     bool* full_grid = NULL;
     if (rank == 0) {
         full_grid = (bool*)malloc(x * y * sizeof(bool));
-        if (!full_grid) {
-            fprintf(stderr, "Error: Memory allocation failed for full grid\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
         read_pgm_image(full_grid, x, y, maxval, fname);
     }
 
@@ -286,28 +209,16 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
     if (rank == 0) {
         sendcounts = (int*)malloc(n_procs * sizeof(int));
         displs = (int*)malloc(n_procs * sizeof(int));
-        if (!sendcounts || !displs) {
-            fprintf(stderr, "Error: Memory allocation failed for scatter arrays\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
-
         int offset = 0;
         for (int i = 0; i < n_procs; i++) {
-            int start_r, lr;
-            get_local_info(y, n_procs, i, &start_r, &lr);
+            int lr = rows_per_proc + (i < remainder ? 1 : 0);
             sendcounts[i] = lr * x;
-            displs[i] = start_r * x;
+            displs[i] = offset;
+            offset += sendcounts[i];
         }
     }
 
-    // Temporary variables for non-root processes
-    int temp_sendcount = local_rows * x;
-    int temp_displ = 0;
-
-    MPI_Scatterv(full_grid,
-                 (rank == 0) ? sendcounts : &temp_sendcount,
-                 (rank == 0) ? displs : &temp_displ,
-                 MPI_C_BOOL,
+    MPI_Scatterv(full_grid, sendcounts, displs, MPI_C_BOOL,
                  &local_grid[x], local_rows * x, MPI_C_BOOL, 0, MPI_COMM_WORLD);
 
     if (rank == 0) {
@@ -326,29 +237,13 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
     // Evolution loop
     for (int step = 0; step < n_steps; step++) {
         // Exchange ghost rows (halo exchange)
-        if (n_procs > 1) {
-            // Send top ghost row to upper neighbor, receive from lower neighbor
-            MPI_Sendrecv(&local_grid[x], x, MPI_C_BOOL, upper_neighbor, 0,
-                        &local_grid[(local_rows + 1) * x], x, MPI_C_BOOL, lower_neighbor, 0,
-                        MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+        MPI_Sendrecv(&local_grid[x], x, MPI_C_BOOL, upper_neighbor, 0,
+                     &local_grid[(local_rows + 1) * x], x, MPI_C_BOOL, lower_neighbor, 0,
+                     MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
-            // Send bottom ghost row to lower neighbor, receive from upper neighbor
-            MPI_Sendrecv(&local_grid[local_rows * x], x, MPI_C_BOOL, lower_neighbor, 1,
-                        local_grid, x, MPI_C_BOOL, upper_neighbor, 1,
-                        MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-
-            // Handle periodic boundaries for first and last process
-            if (rank == 0) {
-                memcpy(local_grid, &local_grid[local_rows * x], x * sizeof(bool));
-            }
-            if (rank == n_procs - 1) {
-                memcpy(&local_grid[(local_rows + 1) * x], &local_grid[x], x * sizeof(bool));
-            }
-        } else {
-            // Single process - handle periodic boundaries locally
-            memcpy(local_grid, &local_grid[local_rows * x], x * sizeof(bool));
-            memcpy(&local_grid[(local_rows + 1) * x], &local_grid[x], x * sizeof(bool));
-        }
+        MPI_Sendrecv(&local_grid[local_rows * x], x, MPI_C_BOOL, lower_neighbor, 1,
+                     local_grid, x, MPI_C_BOOL, upper_neighbor, 1,
+                     MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
         // Parallel evolution with OpenMP (static scheduling)
         #pragma omp parallel for schedule(static)
@@ -378,17 +273,15 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
         local_grid = local_next;
         local_next = temp;
 
+        // MPI Barrier to synchronize all processes
+        MPI_Barrier(MPI_COMM_WORLD);
+
         // Save snapshot
         if ((step + 1) % snap_freq == 0) {
             bool* snapshot = NULL;
             if (rank == 0) {
                 snapshot = (bool*)malloc(x * y * sizeof(bool));
-                if (!snapshot) {
-                    fprintf(stderr, "Error: Memory allocation failed for snapshot\n");
-                    MPI_Abort(MPI_COMM_WORLD, 1);
-                }
             }
-
             gather_images(&local_grid[x], snapshot, x, y, n_procs, rank);
 
             if (rank == 0) {
@@ -397,9 +290,9 @@ void static_evolution(const char* fname, int n_steps, int snap_freq, int argc, c
                 write_pgm_image(snapshot, x, y, maxval, snapshot_name);
                 free(snapshot);
             }
-        }
 
-        MPI_Barrier(MPI_COMM_WORLD);
+            MPI_Barrier(MPI_COMM_WORLD);
+        }
     }
 
     double end_time = MPI_Wtime();
@@ -421,23 +314,22 @@ void ordered_evolution(const char* fname, int n_steps, int snap_freq, int argc, 
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &n_procs);
 
-    // Only rank 0 does the work for ordered evolution
+    int x, y, maxval;
+    read_header(&x, &y, &maxval, fname);
+
+    bool* grid = NULL;
+    bool* next_grid = NULL;
+
     if (rank == 0) {
-        int x, y, maxval;
-        read_header(&x, &y, &maxval, fname);
-
-        bool* grid = (bool*)malloc(x * y * sizeof(bool));
-        bool* next_grid = (bool*)malloc(x * y * sizeof(bool));
-
-        if (!grid || !next_grid) {
-            fprintf(stderr, "Error: Memory allocation failed in ordered_evolution\n");
-            MPI_Abort(MPI_COMM_WORLD, 1);
-        }
-
+        grid = (bool*)malloc(x * y * sizeof(bool));
+        next_grid = (bool*)malloc(x * y * sizeof(bool));
         read_pgm_image(grid, x, y, maxval, fname);
+    }
 
-        double start_time = MPI_Wtime();
+    MPI_Barrier(MPI_COMM_WORLD);
+    double start_time = MPI_Wtime();
 
+    if (rank == 0) {
         for (int step = 0; step < n_steps; step++) {
             // Sequential evolution on rank 0
             for (int i = 0; i < y; i++) {
@@ -468,10 +360,8 @@ void ordered_evolution(const char* fname, int n_steps, int snap_freq, int argc, 
 
         free(grid);
         free(next_grid);
-    } else {
-        // Other ranks just wait
-        MPI_Barrier(MPI_COMM_WORLD);
     }
 
+    MPI_Barrier(MPI_COMM_WORLD);
     MPI_Finalize();
 }
