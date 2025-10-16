@@ -5,17 +5,17 @@
 #SBATCH --ntasks=1                # 1 MPI task → uses 1 socket
 #SBATCH --cpus-per-task=12        # Adjust if your THIN has 12 or 16 cores/socket
 #SBATCH --exclusive
-#SBATCH --time=02:00:00
+#SBATCH --time=01:00:00
 
 # Load module
 module load openMPI/5.0.5
 
 # Parameters
 K=10000
-NSTEPS=500
+NSTEPS=100
 GRID_FILE="init_${K}.pgm"
 OUTPUT_DIR="/u/dssc/msmaddi/HPC/Exe1/OpenMP_scalability/THIN"
-CSV_FILE="$OUTPUT_DIR/openmp_T_10k.csv"
+CSV_FILE="$OUTPUT_DIR/openmp_T_10000.csv"
 
 # Create output directory if needed
 mkdir -p "$OUTPUT_DIR"

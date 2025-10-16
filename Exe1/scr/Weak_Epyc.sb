@@ -1,0 +1,43 @@
+#!/bin/bash
+#SBATCH --job-name=Weak_Hybrid_EPYC
+#SBATCH --partition=EPYC
+#SBATCH --nodes=4                 # Max 2 nodes → 4 sockets
+#SBATCH --ntasks=4                # Max 4 MPI tasks (1 per socket)
+#SBATCH --ntasks-per-node=2       # THIN = 2 sockets/node
+#SBATCH --cpus-per-task=64        # 64 cores per socket
+#SBATCH --exclusive
+#SBATCH --time=02:00:00
+
+module load openMPI/5.0.5
+
+OUT_DIR="/u/dssc/msmaddi/HPC/Exe1/Weak_scalability/EPYC"
+mkdir -p "$OUT_DIR"
+CSV_FILE="$OUT_DIR/weak_hybrid_epyc.csv"
+
+# Base problem size per process
+BASE_K=10000
+NSTEPS=100
+EVOLUTION=1
+
+# Initialize CSV file
+echo "k,nsteps,mpi_procs,omp_threads,evolution,time" > "$CSV_FILE"
+ln -sf "$CSV_FILE" results.csv
+
+# Hybrid weak scaling sweep
+for NPROCS in 1 2 4; do
+    # Increase total problem size proportionally to number of processes
+    K=$((BASE_K * NPROCS))
+    GRID="init_${K}.pgm.pgm"
+
+    echo "🔹 Initializing grid for K=$K"
+    mpirun -np 1 --map-by socket ./gameoflife -i -k $K -f $GRID
+
+    for THREADS in $(seq 1 64); do
+        echo "🔹 EPYC Weak Scaling: MPI=$NPROCS, OMP=$THREADS, K=$K"
+        export OMP_NUM_THREADS=$THREADS
+        mpirun -np $NPROCS --map-by socket ./gameoflife -r -f $GRID -k $K -n $NSTEPS -e $EVOLUTION -s 0
+    done
+done
+
+rm -f results.csv
+echo "✅ Hybrid weak scaling complete: $CSV_FILE"

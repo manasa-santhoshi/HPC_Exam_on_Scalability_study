@@ -5,14 +5,14 @@
 #SBATCH --ntasks=1                # 1 MPI task → uses 1 socket
 #SBATCH --cpus-per-task=64
 #SBATCH --exclusive
-#SBATCH --time=02:00:00           # Allow time for 64 runs
+#SBATCH --time=01:00:00           # Allow time for 64 runs
 
 
 module load openMPI/5.0.5
 
-K=18000
-NSTEPS=500
-GRID_FILE="init_18000.pgm"
+K=10000
+NSTEPS=100
+GRID_FILE="init_10000.pgm"
 
 # Set up OpenMP environment (will override OMP_NUM_THREADS per iteration)
 export OMP_PLACES=cores
@@ -27,7 +27,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-for (( t = 16; t <= 64; t++ )); do
+for (( t = 1; t <= 64; t++ )); do
     echo "🔹 Running with OMP_NUM_THREADS=$t ..."
  
     export OMP_NUM_THREADS=$t
