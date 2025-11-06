@@ -15,7 +15,7 @@ mkdir -p "$OUT_DIR"
 CSV_FILE="$OUT_DIR/weak_hybrid_thin.csv"
 
 # Base problem size per process
-BASE_K=10000
+BASE_K=5000
 NSTEPS=100
 EVOLUTION=1
 
