@@ -5,7 +5,7 @@
 This project focuses on analyzing the scalability of parallel programs on the **ORFEO HPC cluster**.  
 Two main exercises were conducted to study performance and scalability across **EPYC** and **THIN** architectures.
 
----
+
 
 ### Exercise 1 – Game of Life
 
@@ -22,7 +22,7 @@ The goal was to evaluate:
 
 Performance metrics such as execution time, speedup, and efficiency were analyzed on both **EPYC** and **THIN** nodes.
 
----
+
 
 ### Exercise 2 – Matrix Multiplication (GEMM)
 
@@ -31,7 +31,7 @@ This part compares the performance of **BLIS** and **OpenBLAS** libraries for do
 - Tested under both **fixed matrix size** and **fixed number of cores** conditions.  
 - Executed on both **EPYC** and **THIN** architectures to analyze performance differences.
 
----
+
 
 ### Analysis
 
@@ -41,7 +41,7 @@ Plots and analysis outputs are available in:
 - `Exe1/Analysis/`  
 - `Exe2/Analysis/`
 
----
+
 
 ## Repository Structure
 
